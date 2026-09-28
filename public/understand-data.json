@@ -1,0 +1,3895 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-22",
+  "sources": [
+    {
+      "id": "dfe-capacity-2025",
+      "title": "Capacity – school, 2024/25",
+      "publisher": "Department for Education",
+      "published": "2026-03-19",
+      "measurementDate": "2025-05",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/d99443e1-1258-4894-b705-5bfb51751a37",
+      "downloadUrl": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/d99443e1-1258-4894-b705-5bfb51751a37/csv",
+      "sha256": "0cb91343ed515d7cc513cc8fded9827df27c4d51099a1c2c1384d50d62f8dca5",
+      "file": "capacity-school.csv"
+    },
+    {
+      "id": "dfe-census-2026",
+      "title": "Schools, pupils and their characteristics, January 2026",
+      "publisher": "Department for Education",
+      "published": "2026-06-04",
+      "releaseUpdated": "2026-07-14",
+      "measurementDate": "2026-01",
+      "url": "https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2025-26/explore",
+      "downloadUrl": "https://content.explore-education-statistics.service.gov.uk/api/releases/420ab305-b770-4dfa-89a0-ac899f34ac46/files/3d6359e3-0733-4a4c-a829-66aec003966d",
+      "sha256": "14fd1d59157b3495da7d5caabbcb28ecd2f8048525b25b47ebc93ac57c058c93",
+      "file": "census-school-january-2026.csv"
+    }
+  ],
+  "years": [
+    {
+      "key": "202122",
+      "label": "2021/22",
+      "censusMonth": "2022-05"
+    },
+    {
+      "key": "202223",
+      "label": "2022/23",
+      "censusMonth": "2023-05"
+    },
+    {
+      "key": "202324",
+      "label": "2023/24",
+      "censusMonth": "2024-05"
+    },
+    {
+      "key": "202425",
+      "label": "2024/25",
+      "censusMonth": "2025-05"
+    }
+  ],
+  "nearbyUrns": [
+    "133343",
+    "102884",
+    "102921"
+  ],
+  "sourceMetadata": {
+    "capacityRawRowCount": 184,
+    "capacityRowsPerYear": 46,
+    "uniqueSchoolsPerYear": 45,
+    "censusSchoolRowCount": 45,
+    "splitSites": [
+      {
+        "urn": "139549",
+        "name": "Thomson House School",
+        "treatment": "Sum the two source site records for school-level totals."
+      }
+    ],
+    "historyJoinField": "school_laestab / laestab",
+    "urnChanges": [
+      {
+        "laestab": "3183310",
+        "name": "St Elizabeth's Catholic Primary School",
+        "sourceYearUrns": {
+          "202122": "102910",
+          "202223": "102910",
+          "202324": "102910",
+          "202425": "149925"
+        }
+      },
+      {
+        "laestab": "3183324",
+        "name": "St Osmund's Catholic Primary School",
+        "sourceYearUrns": {
+          "202122": "102919",
+          "202223": "102919",
+          "202324": "102919",
+          "202425": "149926"
+        }
+      },
+      {
+        "laestab": "3182000",
+        "name": "St Richard Reynolds Catholic Primary School",
+        "sourceYearUrns": {
+          "202122": "139122",
+          "202223": "149298",
+          "202324": "149298",
+          "202425": "149298"
+        }
+      }
+    ],
+    "methodologyUrls": [
+      "https://explore-education-statistics.service.gov.uk/methodology/school-capacity",
+      "https://assets.publishing.service.gov.uk/media/68135e8eb0ef2c9850525406/School_capacity_survey_2025_-_guidance_for_local_authorities.pdf"
+    ],
+    "schoolNameEvidence": {
+      "urn": "102921",
+      "currentName": "The King's Church of England Primary School",
+      "formerName": "The Queen's Church of England Primary School",
+      "currentNameFirstSelectedSourceYear": "202324",
+      "schoolUrl": "https://www.kings.richmond.sch.uk/page/?pid=8&title=About+Us",
+      "evidence": "Current name in 2024/25 SCAP and January 2026 census; same URN in earlier Queen’s rows. The school About Us page uses King’s / Queen’s School."
+    }
+  },
+  "borough": [
+    {
+      "year": "202122",
+      "roll": 16228,
+      "capacity": 18922,
+      "schoolCount": 45
+    },
+    {
+      "year": "202223",
+      "roll": 16070,
+      "capacity": 18922,
+      "schoolCount": 45
+    },
+    {
+      "year": "202324",
+      "roll": 15704,
+      "capacity": 18922,
+      "schoolCount": 45
+    },
+    {
+      "year": "202425",
+      "roll": 15338,
+      "capacity": 18922,
+      "schoolCount": 45
+    }
+  ],
+  "schools": [
+    {
+      "urn": "133343",
+      "laestab": "3182039",
+      "name": "Kew Riverside Primary School",
+      "shortName": "Kew Riverside",
+      "nearby": true,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 90,
+        "capacity": 210,
+        "unfilledPlaces": 120,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 42.8571
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 142,
+          "capacity": 210,
+          "urn": "133343",
+          "sourceNames": [
+            "Kew Riverside Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 107,
+          "capacity": 210,
+          "urn": "133343",
+          "sourceNames": [
+            "Kew Riverside Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 102,
+          "capacity": 210,
+          "urn": "133343",
+          "sourceNames": [
+            "Kew Riverside Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 90,
+          "capacity": 210,
+          "urn": "133343",
+          "sourceNames": [
+            "Kew Riverside Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          14,
+          8,
+          10,
+          11,
+          18,
+          14,
+          9
+        ],
+        "totalExcludingNursery": 84,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102884",
+      "laestab": "3182004",
+      "name": "Darell Primary and Nursery School",
+      "shortName": "Darell",
+      "nearby": true,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 177,
+        "capacity": 420,
+        "unfilledPlaces": 243,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 42.1429
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 177,
+          "capacity": 420,
+          "urn": "102884",
+          "sourceNames": [
+            "Darell Primary and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 193,
+          "capacity": 420,
+          "urn": "102884",
+          "sourceNames": [
+            "Darell Primary and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 194,
+          "capacity": 420,
+          "urn": "102884",
+          "sourceNames": [
+            "Darell Primary and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 177,
+          "capacity": 420,
+          "urn": "102884",
+          "sourceNames": [
+            "Darell Primary and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          23,
+          24,
+          28,
+          29,
+          24,
+          24,
+          21
+        ],
+        "totalExcludingNursery": 173,
+        "nurseryPupils": 19
+      }
+    },
+    {
+      "urn": "102921",
+      "laestab": "3183327",
+      "name": "The King's Church of England Primary School",
+      "shortName": "The King’s (formerly The Queen’s)",
+      "nearby": true,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 392,
+        "capacity": 420,
+        "unfilledPlaces": 28,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 93.3333
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 366,
+          "capacity": 420,
+          "urn": "102921",
+          "sourceNames": [
+            "The Queen's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 394,
+          "capacity": 420,
+          "urn": "102921",
+          "sourceNames": [
+            "The Queen's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 398,
+          "capacity": 420,
+          "urn": "102921",
+          "sourceNames": [
+            "The King's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 392,
+          "capacity": 420,
+          "urn": "102921",
+          "sourceNames": [
+            "The King's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          60,
+          58,
+          59,
+          58,
+          59,
+          55,
+          48
+        ],
+        "totalExcludingNursery": 397,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102920",
+      "laestab": "3183326",
+      "name": "Archdeacon Cambridge's Church of England Primary School",
+      "shortName": "Archdeacon Cambridge's Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 405,
+        "capacity": 450,
+        "unfilledPlaces": 45,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 90.0
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 408,
+          "capacity": 450,
+          "urn": "102920",
+          "sourceNames": [
+            "Archdeacon Cambridge's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 413,
+          "capacity": 450,
+          "urn": "102920",
+          "sourceNames": [
+            "Archdeacon Cambridge's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 400,
+          "capacity": 450,
+          "urn": "102920",
+          "sourceNames": [
+            "Archdeacon Cambridge's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 405,
+          "capacity": 450,
+          "urn": "102920",
+          "sourceNames": [
+            "Archdeacon Cambridge's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          59,
+          58,
+          50,
+          56,
+          59,
+          60,
+          61
+        ],
+        "totalExcludingNursery": 403,
+        "nurseryPupils": 37
+      }
+    },
+    {
+      "urn": "102902",
+      "laestab": "3182028",
+      "name": "Barnes Primary School",
+      "shortName": "Barnes Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 410,
+        "capacity": 450,
+        "unfilledPlaces": 40,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 91.1111
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 414,
+          "capacity": 450,
+          "urn": "102902",
+          "sourceNames": [
+            "Barnes Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 419,
+          "capacity": 450,
+          "urn": "102902",
+          "sourceNames": [
+            "Barnes Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 409,
+          "capacity": 450,
+          "urn": "102902",
+          "sourceNames": [
+            "Barnes Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 410,
+          "capacity": 450,
+          "urn": "102902",
+          "sourceNames": [
+            "Barnes Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          60,
+          60,
+          59,
+          60,
+          57,
+          54,
+          60
+        ],
+        "totalExcludingNursery": 410,
+        "nurseryPupils": 60
+      }
+    },
+    {
+      "urn": "102918",
+      "laestab": "3183322",
+      "name": "Bishop Perrin Church of England Primary School",
+      "shortName": "Bishop Perrin Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 210,
+        "capacity": 210,
+        "unfilledPlaces": 0,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 100.0
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 206,
+          "capacity": 210,
+          "urn": "102918",
+          "sourceNames": [
+            "Bishop Perrin Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 205,
+          "capacity": 210,
+          "urn": "102918",
+          "sourceNames": [
+            "Bishop Perrin Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 209,
+          "capacity": 210,
+          "urn": "102918",
+          "sourceNames": [
+            "Bishop Perrin Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 210,
+          "capacity": 210,
+          "urn": "102918",
+          "sourceNames": [
+            "Bishop Perrin Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          26,
+          29,
+          30,
+          29,
+          30,
+          30,
+          30
+        ],
+        "totalExcludingNursery": 204,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102904",
+      "laestab": "3182035",
+      "name": "Buckingham Primary School",
+      "shortName": "Buckingham Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 398,
+        "capacity": 630,
+        "unfilledPlaces": 232,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 63.1746
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 519,
+          "capacity": 630,
+          "urn": "102904",
+          "sourceNames": [
+            "Buckingham Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 501,
+          "capacity": 630,
+          "urn": "102904",
+          "sourceNames": [
+            "Buckingham Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 456,
+          "capacity": 630,
+          "urn": "102904",
+          "sourceNames": [
+            "Buckingham Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 398,
+          "capacity": 630,
+          "urn": "102904",
+          "sourceNames": [
+            "Buckingham Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          29,
+          39,
+          46,
+          53,
+          50,
+          71,
+          68
+        ],
+        "totalExcludingNursery": 356,
+        "nurseryPupils": 21
+      }
+    },
+    {
+      "urn": "102883",
+      "laestab": "3182001",
+      "name": "Carlisle Infant School",
+      "shortName": "Carlisle Infant School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 230,
+        "capacity": 270,
+        "unfilledPlaces": 40,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 85.1852
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 244,
+          "capacity": 270,
+          "urn": "102883",
+          "sourceNames": [
+            "Carlisle Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 245,
+          "capacity": 270,
+          "urn": "102883",
+          "sourceNames": [
+            "Carlisle Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 242,
+          "capacity": 270,
+          "urn": "102883",
+          "sourceNames": [
+            "Carlisle Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 230,
+          "capacity": 270,
+          "urn": "102883",
+          "sourceNames": [
+            "Carlisle Infant School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          51,
+          85,
+          76,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalExcludingNursery": 212,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102905",
+      "laestab": "3182036",
+      "name": "Chase Bridge Primary School",
+      "shortName": "Chase Bridge Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 620,
+        "capacity": 630,
+        "unfilledPlaces": 10,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.4127
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 604,
+          "capacity": 630,
+          "urn": "102905",
+          "sourceNames": [
+            "Chase Bridge Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 619,
+          "capacity": 630,
+          "urn": "102905",
+          "sourceNames": [
+            "Chase Bridge Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 618,
+          "capacity": 630,
+          "urn": "102905",
+          "sourceNames": [
+            "Chase Bridge Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 620,
+          "capacity": 630,
+          "urn": "102905",
+          "sourceNames": [
+            "Chase Bridge Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          85,
+          89,
+          89,
+          86,
+          90,
+          88,
+          89
+        ],
+        "totalExcludingNursery": 616,
+        "nurseryPupils": 40
+      }
+    },
+    {
+      "urn": "102903",
+      "laestab": "3182032",
+      "name": "Collis Primary School",
+      "shortName": "Collis Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 627,
+        "capacity": 750,
+        "unfilledPlaces": 123,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 83.6
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 683,
+          "capacity": 750,
+          "urn": "102903",
+          "sourceNames": [
+            "Collis Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 652,
+          "capacity": 750,
+          "urn": "102903",
+          "sourceNames": [
+            "Collis Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 656,
+          "capacity": 750,
+          "urn": "102903",
+          "sourceNames": [
+            "Collis Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 627,
+          "capacity": 750,
+          "urn": "102903",
+          "sourceNames": [
+            "Collis Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          90,
+          91,
+          90,
+          91,
+          90,
+          87,
+          89
+        ],
+        "totalExcludingNursery": 628,
+        "nurseryPupils": 76
+      }
+    },
+    {
+      "urn": "142012",
+      "laestab": "3182017",
+      "name": "Deer Park School",
+      "shortName": "Deer Park School",
+      "nearby": false,
+      "schoolType": "Free schools",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 391,
+        "capacity": 420,
+        "unfilledPlaces": 29,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 93.0952
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 299,
+          "capacity": 420,
+          "urn": "142012",
+          "sourceNames": [
+            "Deer Park School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 331,
+          "capacity": 420,
+          "urn": "142012",
+          "sourceNames": [
+            "Deer Park School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 360,
+          "capacity": 420,
+          "urn": "142012",
+          "sourceNames": [
+            "Deer Park School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 391,
+          "capacity": 420,
+          "urn": "142012",
+          "sourceNames": [
+            "Deer Park School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          59,
+          60,
+          59,
+          60,
+          60,
+          59,
+          60
+        ],
+        "totalExcludingNursery": 417,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102885",
+      "laestab": "3182006",
+      "name": "East Sheen Primary School",
+      "shortName": "East Sheen Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 602,
+        "capacity": 630,
+        "unfilledPlaces": 28,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 95.5556
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 566,
+          "capacity": 630,
+          "urn": "102885",
+          "sourceNames": [
+            "East Sheen Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 576,
+          "capacity": 630,
+          "urn": "102885",
+          "sourceNames": [
+            "East Sheen Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 576,
+          "capacity": 630,
+          "urn": "102885",
+          "sourceNames": [
+            "East Sheen Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 602,
+          "capacity": 630,
+          "urn": "102885",
+          "sourceNames": [
+            "East Sheen Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          89,
+          87,
+          82,
+          85,
+          78,
+          88,
+          84
+        ],
+        "totalExcludingNursery": 593,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102886",
+      "laestab": "3182007",
+      "name": "Hampton Hill Junior School",
+      "shortName": "Hampton Hill Junior School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 328,
+        "capacity": 360,
+        "unfilledPlaces": 32,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 91.1111
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 360,
+          "capacity": 360,
+          "urn": "102886",
+          "sourceNames": [
+            "Hampton Hill Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 360,
+          "capacity": 360,
+          "urn": "102886",
+          "sourceNames": [
+            "Hampton Hill Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 349,
+          "capacity": 360,
+          "urn": "102886",
+          "sourceNames": [
+            "Hampton Hill Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 328,
+          "capacity": 360,
+          "urn": "102886",
+          "sourceNames": [
+            "Hampton Hill Junior School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          67,
+          75,
+          79,
+          85
+        ],
+        "totalExcludingNursery": 306,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102888",
+      "laestab": "3182009",
+      "name": "Hampton Infant School and Nursery",
+      "shortName": "Hampton Infant School and Nursery",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 335,
+        "capacity": 360,
+        "unfilledPlaces": 25,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 93.0556
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 345,
+          "capacity": 360,
+          "urn": "102888",
+          "sourceNames": [
+            "Hampton Infant School and Nursery"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 351,
+          "capacity": 360,
+          "urn": "102888",
+          "sourceNames": [
+            "Hampton Infant School and Nursery"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 345,
+          "capacity": 360,
+          "urn": "102888",
+          "sourceNames": [
+            "Hampton Infant School and Nursery"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 335,
+          "capacity": 360,
+          "urn": "102888",
+          "sourceNames": [
+            "Hampton Infant School and Nursery"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          115,
+          112,
+          109,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalExcludingNursery": 336,
+        "nurseryPupils": 36
+      }
+    },
+    {
+      "urn": "102887",
+      "laestab": "3182008",
+      "name": "Hampton Junior School",
+      "shortName": "Hampton Junior School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 473,
+        "capacity": 480,
+        "unfilledPlaces": 7,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.5417
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 442,
+          "capacity": 480,
+          "urn": "102887",
+          "sourceNames": [
+            "Hampton Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 448,
+          "capacity": 480,
+          "urn": "102887",
+          "sourceNames": [
+            "Hampton Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 461,
+          "capacity": 480,
+          "urn": "102887",
+          "sourceNames": [
+            "Hampton Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 473,
+          "capacity": 480,
+          "urn": "102887",
+          "sourceNames": [
+            "Hampton Junior School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          120,
+          122,
+          119,
+          113
+        ],
+        "totalExcludingNursery": 474,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102889",
+      "laestab": "3182010",
+      "name": "Hampton Wick Infant and Nursery School",
+      "shortName": "Hampton Wick Infant and Nursery School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 139,
+        "capacity": 270,
+        "unfilledPlaces": 131,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 51.4815
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 186,
+          "capacity": 270,
+          "urn": "102889",
+          "sourceNames": [
+            "Hampton Wick Infant and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 171,
+          "capacity": 270,
+          "urn": "102889",
+          "sourceNames": [
+            "Hampton Wick Infant and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 151,
+          "capacity": 270,
+          "urn": "102889",
+          "sourceNames": [
+            "Hampton Wick Infant and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 139,
+          "capacity": 270,
+          "urn": "102889",
+          "sourceNames": [
+            "Hampton Wick Infant and Nursery School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          51,
+          43,
+          34,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalExcludingNursery": 128,
+        "nurseryPupils": 37
+      }
+    },
+    {
+      "urn": "102891",
+      "laestab": "3182012",
+      "name": "Heathfield Infant School",
+      "shortName": "Heathfield Infant School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 232,
+        "capacity": 360,
+        "unfilledPlaces": 128,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 64.4444
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 287,
+          "capacity": 360,
+          "urn": "102891",
+          "sourceNames": [
+            "Heathfield Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 284,
+          "capacity": 360,
+          "urn": "102891",
+          "sourceNames": [
+            "Heathfield Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 265,
+          "capacity": 360,
+          "urn": "102891",
+          "sourceNames": [
+            "Heathfield Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 232,
+          "capacity": 360,
+          "urn": "102891",
+          "sourceNames": [
+            "Heathfield Infant School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          81,
+          65,
+          84,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalExcludingNursery": 230,
+        "nurseryPupils": 56
+      }
+    },
+    {
+      "urn": "102890",
+      "laestab": "3182011",
+      "name": "Heathfield Junior School",
+      "shortName": "Heathfield Junior School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 410,
+        "capacity": 480,
+        "unfilledPlaces": 70,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 85.4167
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 459,
+          "capacity": 480,
+          "urn": "102890",
+          "sourceNames": [
+            "Heathfield Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 424,
+          "capacity": 480,
+          "urn": "102890",
+          "sourceNames": [
+            "Heathfield Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 434,
+          "capacity": 480,
+          "urn": "102890",
+          "sourceNames": [
+            "Heathfield Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 410,
+          "capacity": 480,
+          "urn": "102890",
+          "sourceNames": [
+            "Heathfield Junior School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          77,
+          90,
+          115,
+          88
+        ],
+        "totalExcludingNursery": 370,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102908",
+      "laestab": "3183304",
+      "name": "Holy Trinity Church of England Primary School",
+      "shortName": "Holy Trinity Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 303,
+        "capacity": 420,
+        "unfilledPlaces": 117,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 72.1429
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 382,
+          "capacity": 420,
+          "urn": "102908",
+          "sourceNames": [
+            "Holy Trinity Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 380,
+          "capacity": 420,
+          "urn": "102908",
+          "sourceNames": [
+            "Holy Trinity Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 329,
+          "capacity": 420,
+          "urn": "102908",
+          "sourceNames": [
+            "Holy Trinity Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 303,
+          "capacity": 420,
+          "urn": "102908",
+          "sourceNames": [
+            "Holy Trinity Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          41,
+          26,
+          31,
+          45,
+          46,
+          39,
+          55
+        ],
+        "totalExcludingNursery": 283,
+        "nurseryPupils": 26
+      }
+    },
+    {
+      "urn": "102892",
+      "laestab": "3182013",
+      "name": "Lowther Primary School",
+      "shortName": "Lowther Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 217,
+        "capacity": 420,
+        "unfilledPlaces": 203,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 51.6667
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 272,
+          "capacity": 420,
+          "urn": "102892",
+          "sourceNames": [
+            "Lowther Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 250,
+          "capacity": 420,
+          "urn": "102892",
+          "sourceNames": [
+            "Lowther Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 249,
+          "capacity": 420,
+          "urn": "102892",
+          "sourceNames": [
+            "Lowther Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 217,
+          "capacity": 420,
+          "urn": "102892",
+          "sourceNames": [
+            "Lowther Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          30,
+          27,
+          29,
+          34,
+          37,
+          27,
+          39
+        ],
+        "totalExcludingNursery": 223,
+        "nurseryPupils": 21
+      }
+    },
+    {
+      "urn": "133728",
+      "laestab": "3182040",
+      "name": "Marshgate Primary School",
+      "shortName": "Marshgate Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 413,
+        "capacity": 420,
+        "unfilledPlaces": 7,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.3333
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 416,
+          "capacity": 420,
+          "urn": "133728",
+          "sourceNames": [
+            "Marshgate Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 414,
+          "capacity": 420,
+          "urn": "133728",
+          "sourceNames": [
+            "Marshgate Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 411,
+          "capacity": 420,
+          "urn": "133728",
+          "sourceNames": [
+            "Marshgate Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 413,
+          "capacity": 420,
+          "urn": "133728",
+          "sourceNames": [
+            "Marshgate Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          49,
+          57,
+          55,
+          58,
+          54,
+          56,
+          60
+        ],
+        "totalExcludingNursery": 389,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102893",
+      "laestab": "3182015",
+      "name": "Meadlands Primary School",
+      "shortName": "Meadlands Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 212,
+        "capacity": 210,
+        "unfilledPlaces": 0,
+        "pupilsOverCapacity": 2,
+        "occupancyPercent": 100.9524
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 206,
+          "capacity": 210,
+          "urn": "102893",
+          "sourceNames": [
+            "Meadlands Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 202,
+          "capacity": 210,
+          "urn": "102893",
+          "sourceNames": [
+            "Meadlands Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 201,
+          "capacity": 210,
+          "urn": "102893",
+          "sourceNames": [
+            "Meadlands Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 212,
+          "capacity": 210,
+          "urn": "102893",
+          "sourceNames": [
+            "Meadlands Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          19,
+          30,
+          30,
+          31,
+          30,
+          32,
+          31
+        ],
+        "totalExcludingNursery": 203,
+        "nurseryPupils": 18
+      }
+    },
+    {
+      "urn": "145122",
+      "laestab": "3182029",
+      "name": "Nelson Primary School",
+      "shortName": "Nelson Primary School",
+      "nearby": false,
+      "schoolType": "Academy sponsor led",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 241,
+        "capacity": 630,
+        "unfilledPlaces": 389,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 38.254
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 299,
+          "capacity": 630,
+          "urn": "145122",
+          "sourceNames": [
+            "Nelson Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 286,
+          "capacity": 630,
+          "urn": "145122",
+          "sourceNames": [
+            "Nelson Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 267,
+          "capacity": 630,
+          "urn": "145122",
+          "sourceNames": [
+            "Nelson Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 241,
+          "capacity": 630,
+          "urn": "145122",
+          "sourceNames": [
+            "Nelson Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          27,
+          30,
+          25,
+          42,
+          29,
+          30,
+          44
+        ],
+        "totalExcludingNursery": 227,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102895",
+      "laestab": "3182018",
+      "name": "Orleans Primary School",
+      "shortName": "Orleans Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 421,
+        "capacity": 420,
+        "unfilledPlaces": 0,
+        "pupilsOverCapacity": 1,
+        "occupancyPercent": 100.2381
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 420,
+          "capacity": 420,
+          "urn": "102895",
+          "sourceNames": [
+            "Orleans Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 416,
+          "capacity": 420,
+          "urn": "102895",
+          "sourceNames": [
+            "Orleans Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 416,
+          "capacity": 420,
+          "urn": "102895",
+          "sourceNames": [
+            "Orleans Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 421,
+          "capacity": 420,
+          "urn": "102895",
+          "sourceNames": [
+            "Orleans Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          45,
+          59,
+          60,
+          59,
+          59,
+          60,
+          61
+        ],
+        "totalExcludingNursery": 403,
+        "nurseryPupils": 26
+      }
+    },
+    {
+      "urn": "102916",
+      "laestab": "3183320",
+      "name": "Sacred Heart Catholic Primary School",
+      "shortName": "Sacred Heart Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 149,
+        "capacity": 240,
+        "unfilledPlaces": 91,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 62.0833
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 172,
+          "capacity": 240,
+          "urn": "102916",
+          "sourceNames": [
+            "Sacred Heart Roman Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 173,
+          "capacity": 240,
+          "urn": "102916",
+          "sourceNames": [
+            "Sacred Heart Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 163,
+          "capacity": 240,
+          "urn": "102916",
+          "sourceNames": [
+            "Sacred Heart Roman Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 149,
+          "capacity": 240,
+          "urn": "102916",
+          "sourceNames": [
+            "Sacred Heart Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          22,
+          19,
+          16,
+          15,
+          20,
+          28,
+          26
+        ],
+        "totalExcludingNursery": 146,
+        "nurseryPupils": 14
+      }
+    },
+    {
+      "urn": "102897",
+      "laestab": "3182020",
+      "name": "Sheen Mount Primary School",
+      "shortName": "Sheen Mount Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 593,
+        "capacity": 630,
+        "unfilledPlaces": 37,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 94.127
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 586,
+          "capacity": 630,
+          "urn": "102897",
+          "sourceNames": [
+            "Sheen Mount Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 588,
+          "capacity": 630,
+          "urn": "102897",
+          "sourceNames": [
+            "Sheen Mount Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 572,
+          "capacity": 630,
+          "urn": "102897",
+          "sourceNames": [
+            "Sheen Mount Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 593,
+          "capacity": 630,
+          "urn": "102897",
+          "sourceNames": [
+            "Sheen Mount Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          90,
+          90,
+          88,
+          83,
+          83,
+          82,
+          82
+        ],
+        "totalExcludingNursery": 598,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102912",
+      "laestab": "3183315",
+      "name": "St Edmund's Catholic Primary School",
+      "shortName": "St Edmund's Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 415,
+        "capacity": 420,
+        "unfilledPlaces": 5,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.8095
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 416,
+          "capacity": 420,
+          "urn": "102912",
+          "sourceNames": [
+            "St Edmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 414,
+          "capacity": 420,
+          "urn": "102912",
+          "sourceNames": [
+            "St Edmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 412,
+          "capacity": 420,
+          "urn": "102912",
+          "sourceNames": [
+            "St Edmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 415,
+          "capacity": 420,
+          "urn": "102912",
+          "sourceNames": [
+            "St Edmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          50,
+          60,
+          59,
+          60,
+          60,
+          60,
+          59
+        ],
+        "totalExcludingNursery": 408,
+        "nurseryPupils": 34
+      }
+    },
+    {
+      "urn": "149925",
+      "laestab": "3183310",
+      "name": "St Elizabeth's Catholic Primary School",
+      "shortName": "St Elizabeth's Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Academy converter",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 212,
+        "capacity": 308,
+        "unfilledPlaces": 96,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 68.8312
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 253,
+          "capacity": 308,
+          "urn": "102910",
+          "sourceNames": [
+            "St Elizabeth's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 236,
+          "capacity": 308,
+          "urn": "102910",
+          "sourceNames": [
+            "St Elizabeth's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 212,
+          "capacity": 308,
+          "urn": "102910",
+          "sourceNames": [
+            "St Elizabeth's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 212,
+          "capacity": 308,
+          "urn": "149925",
+          "sourceNames": [
+            "St Elizabeth's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          31,
+          30,
+          29,
+          30,
+          32,
+          29,
+          31
+        ],
+        "totalExcludingNursery": 212,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102913",
+      "laestab": "3183316",
+      "name": "St James's Catholic Primary School",
+      "shortName": "St James's Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 619,
+        "capacity": 630,
+        "unfilledPlaces": 11,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.254
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 614,
+          "capacity": 630,
+          "urn": "102913",
+          "sourceNames": [
+            "St James's Roman Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 634,
+          "capacity": 630,
+          "urn": "102913",
+          "sourceNames": [
+            "St James's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 627,
+          "capacity": 630,
+          "urn": "102913",
+          "sourceNames": [
+            "St James's Roman Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 619,
+          "capacity": 630,
+          "urn": "102913",
+          "sourceNames": [
+            "St James's Roman Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          89,
+          76,
+          89,
+          89,
+          92,
+          90,
+          94
+        ],
+        "totalExcludingNursery": 619,
+        "nurseryPupils": 50
+      }
+    },
+    {
+      "urn": "102911",
+      "laestab": "3183312",
+      "name": "St John the Baptist Church of England Junior School",
+      "shortName": "St John the Baptist Church of England Junior School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 228,
+        "capacity": 360,
+        "unfilledPlaces": 132,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 63.3333
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 226,
+          "capacity": 360,
+          "urn": "102911",
+          "sourceNames": [
+            "St John the Baptist Church of England Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 231,
+          "capacity": 360,
+          "urn": "102911",
+          "sourceNames": [
+            "St John the Baptist Church of England Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 219,
+          "capacity": 360,
+          "urn": "102911",
+          "sourceNames": [
+            "St John the Baptist Church of England Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 228,
+          "capacity": 360,
+          "urn": "102911",
+          "sourceNames": [
+            "St John the Baptist Church of England Junior School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          47,
+          55,
+          54,
+          56
+        ],
+        "totalExcludingNursery": 212,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102909",
+      "laestab": "3183309",
+      "name": "St Mary Magdalen's Catholic Primary School",
+      "shortName": "St Mary Magdalen's Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 162,
+        "capacity": 262,
+        "unfilledPlaces": 100,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 61.8321
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 210,
+          "capacity": 262,
+          "urn": "102909",
+          "sourceNames": [
+            "St Mary Magdalen's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 203,
+          "capacity": 262,
+          "urn": "102909",
+          "sourceNames": [
+            "St Mary Magdalen's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 183,
+          "capacity": 262,
+          "urn": "102909",
+          "sourceNames": [
+            "St Mary Magdalen's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 162,
+          "capacity": 262,
+          "urn": "102909",
+          "sourceNames": [
+            "St Mary Magdalen's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          24,
+          24,
+          20,
+          22,
+          24,
+          18,
+          20
+        ],
+        "totalExcludingNursery": 152,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102914",
+      "laestab": "3183317",
+      "name": "St Mary's Church of England Primary School",
+      "shortName": "St Mary's Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 611,
+        "capacity": 630,
+        "unfilledPlaces": 19,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 96.9841
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 626,
+          "capacity": 630,
+          "urn": "102914",
+          "sourceNames": [
+            "St Mary's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 622,
+          "capacity": 630,
+          "urn": "102914",
+          "sourceNames": [
+            "St Mary's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 621,
+          "capacity": 630,
+          "urn": "102914",
+          "sourceNames": [
+            "St Mary's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 611,
+          "capacity": 630,
+          "urn": "102914",
+          "sourceNames": [
+            "St Mary's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          90,
+          86,
+          90,
+          82,
+          90,
+          91,
+          90
+        ],
+        "totalExcludingNursery": 619,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "139421",
+      "laestab": "3182003",
+      "name": "St Mary's Hampton Church of England Primary",
+      "shortName": "St Mary's Hampton Church of England Primary",
+      "nearby": false,
+      "schoolType": "Free schools",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 170,
+        "capacity": 210,
+        "unfilledPlaces": 40,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 80.9524
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 190,
+          "capacity": 210,
+          "urn": "139421",
+          "sourceNames": [
+            "St Mary's Hampton Church of England Primary"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 192,
+          "capacity": 210,
+          "urn": "139421",
+          "sourceNames": [
+            "St Mary's Hampton Church of England Primary"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 172,
+          "capacity": 210,
+          "urn": "139421",
+          "sourceNames": [
+            "St Mary's Hampton Church of England Primary"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 170,
+          "capacity": 210,
+          "urn": "139421",
+          "sourceNames": [
+            "St Mary's Hampton Church of England Primary"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          21,
+          16,
+          22,
+          31,
+          23,
+          31,
+          17
+        ],
+        "totalExcludingNursery": 161,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102917",
+      "laestab": "3183321",
+      "name": "St Mary's and St Peter's Church of England Primary School",
+      "shortName": "St Mary's and St Peter's Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 620,
+        "capacity": 630,
+        "unfilledPlaces": 10,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 98.4127
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 621,
+          "capacity": 630,
+          "urn": "102917",
+          "sourceNames": [
+            "St Mary's and St Peter's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 616,
+          "capacity": 630,
+          "urn": "102917",
+          "sourceNames": [
+            "St Mary's and St Peter's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 625,
+          "capacity": 630,
+          "urn": "102917",
+          "sourceNames": [
+            "St Mary's and St Peter's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 620,
+          "capacity": 630,
+          "urn": "102917",
+          "sourceNames": [
+            "St Mary's and St Peter's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          88,
+          88,
+          90,
+          86,
+          90,
+          89,
+          90
+        ],
+        "totalExcludingNursery": 621,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "149926",
+      "laestab": "3183324",
+      "name": "St Osmund's Catholic Primary School",
+      "shortName": "St Osmund's Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Academy converter",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 148,
+        "capacity": 262,
+        "unfilledPlaces": 114,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 56.4885
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 161,
+          "capacity": 262,
+          "urn": "102919",
+          "sourceNames": [
+            "St Osmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 154,
+          "capacity": 262,
+          "urn": "102919",
+          "sourceNames": [
+            "St Osmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 151,
+          "capacity": 262,
+          "urn": "102919",
+          "sourceNames": [
+            "St Osmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 148,
+          "capacity": 262,
+          "urn": "149926",
+          "sourceNames": [
+            "St Osmund's Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          30,
+          30,
+          26,
+          22,
+          19,
+          17,
+          23
+        ],
+        "totalExcludingNursery": 167,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "149298",
+      "laestab": "3182000",
+      "name": "St Richard Reynolds Catholic Primary School",
+      "shortName": "St Richard Reynolds Catholic Primary School",
+      "nearby": false,
+      "schoolType": "Academy converter",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 210,
+        "capacity": 210,
+        "unfilledPlaces": 0,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 100.0
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 210,
+          "capacity": 210,
+          "urn": "139122",
+          "sourceNames": [
+            "St Richard Reynolds Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 212,
+          "capacity": 210,
+          "urn": "149298",
+          "sourceNames": [
+            "St Richard Reynolds Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 208,
+          "capacity": 210,
+          "urn": "149298",
+          "sourceNames": [
+            "St Richard Reynolds Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 210,
+          "capacity": 210,
+          "urn": "149298",
+          "sourceNames": [
+            "St Richard Reynolds Catholic Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "totalExcludingNursery": 210,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102907",
+      "laestab": "3183303",
+      "name": "St Richard's Church of England Primary School",
+      "shortName": "St Richard's Church of England Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 157,
+        "capacity": 210,
+        "unfilledPlaces": 53,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 74.7619
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 185,
+          "capacity": 210,
+          "urn": "102907",
+          "sourceNames": [
+            "St Richard's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 179,
+          "capacity": 210,
+          "urn": "102907",
+          "sourceNames": [
+            "St Richard's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 170,
+          "capacity": 210,
+          "urn": "102907",
+          "sourceNames": [
+            "St Richard's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 157,
+          "capacity": 210,
+          "urn": "102907",
+          "sourceNames": [
+            "St Richard's Church of England Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          11,
+          17,
+          15,
+          20,
+          22,
+          29,
+          30
+        ],
+        "totalExcludingNursery": 144,
+        "nurseryPupils": 9
+      }
+    },
+    {
+      "urn": "102915",
+      "laestab": "3183319",
+      "name": "St Stephen's C E Primary School",
+      "shortName": "St Stephen's C E Primary School",
+      "nearby": false,
+      "schoolType": "Voluntary aided school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 417,
+        "capacity": 420,
+        "unfilledPlaces": 3,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 99.2857
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 416,
+          "capacity": 420,
+          "urn": "102915",
+          "sourceNames": [
+            "St Stephen's C E Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 413,
+          "capacity": 420,
+          "urn": "102915",
+          "sourceNames": [
+            "St Stephen's C E Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 419,
+          "capacity": 420,
+          "urn": "102915",
+          "sourceNames": [
+            "St Stephen's C E Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 417,
+          "capacity": 420,
+          "urn": "102915",
+          "sourceNames": [
+            "St Stephen's C E Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          60,
+          57,
+          59,
+          61,
+          60,
+          61,
+          59
+        ],
+        "totalExcludingNursery": 417,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102898",
+      "laestab": "3182021",
+      "name": "Stanley Primary School",
+      "shortName": "Stanley Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 410,
+        "capacity": 840,
+        "unfilledPlaces": 430,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 48.8095
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 537,
+          "capacity": 840,
+          "urn": "102898",
+          "sourceNames": [
+            "Stanley  Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 486,
+          "capacity": 840,
+          "urn": "102898",
+          "sourceNames": [
+            "Stanley  Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 437,
+          "capacity": 840,
+          "urn": "102898",
+          "sourceNames": [
+            "Stanley  Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 410,
+          "capacity": 840,
+          "urn": "102898",
+          "sourceNames": [
+            "Stanley Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          43,
+          45,
+          35,
+          45,
+          64,
+          69,
+          58
+        ],
+        "totalExcludingNursery": 359,
+        "nurseryPupils": 26
+      }
+    },
+    {
+      "urn": "102896",
+      "laestab": "3182019",
+      "name": "The Russell Primary School",
+      "shortName": "The Russell Primary School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 188,
+        "capacity": 240,
+        "unfilledPlaces": 52,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 78.3333
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 202,
+          "capacity": 240,
+          "urn": "102896",
+          "sourceNames": [
+            "The Russell Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 207,
+          "capacity": 240,
+          "urn": "102896",
+          "sourceNames": [
+            "The Russell Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 190,
+          "capacity": 240,
+          "urn": "102896",
+          "sourceNames": [
+            "The Russell Primary School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 188,
+          "capacity": 240,
+          "urn": "102896",
+          "sourceNames": [
+            "The Russell Primary School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          18,
+          27,
+          27,
+          29,
+          25,
+          29,
+          30
+        ],
+        "totalExcludingNursery": 185,
+        "nurseryPupils": 22
+      }
+    },
+    {
+      "urn": "102906",
+      "laestab": "3182037",
+      "name": "The Vineyard School",
+      "shortName": "The Vineyard School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 571,
+        "capacity": 630,
+        "unfilledPlaces": 59,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 90.6349
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 621,
+          "capacity": 630,
+          "urn": "102906",
+          "sourceNames": [
+            "The Vineyard School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 612,
+          "capacity": 630,
+          "urn": "102906",
+          "sourceNames": [
+            "The Vineyard School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 594,
+          "capacity": 630,
+          "urn": "102906",
+          "sourceNames": [
+            "The Vineyard School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 571,
+          "capacity": 630,
+          "urn": "102906",
+          "sourceNames": [
+            "The Vineyard School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          57,
+          63,
+          78,
+          71,
+          76,
+          85,
+          86
+        ],
+        "totalExcludingNursery": 516,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "139549",
+      "laestab": "3182005",
+      "name": "Thomson House School",
+      "shortName": "Thomson House School",
+      "nearby": false,
+      "schoolType": "Free schools",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 364,
+        "capacity": 420,
+        "unfilledPlaces": 56,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 86.6667
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 365,
+          "capacity": 420,
+          "urn": "139549",
+          "sourceNames": [
+            "Thomson House School - split site 1",
+            "Thomson House School - split site 2"
+          ],
+          "sourceSiteCount": 2
+        },
+        {
+          "year": "202223",
+          "roll": 375,
+          "capacity": 420,
+          "urn": "139549",
+          "sourceNames": [
+            "Thomson House School - split site 1",
+            "Thomson House School - split site 2"
+          ],
+          "sourceSiteCount": 2
+        },
+        {
+          "year": "202324",
+          "roll": 369,
+          "capacity": 420,
+          "urn": "139549",
+          "sourceNames": [
+            "Thomson House School - split site 1",
+            "Thomson House School - split site 2"
+          ],
+          "sourceSiteCount": 2
+        },
+        {
+          "year": "202425",
+          "roll": 364,
+          "capacity": 420,
+          "urn": "139549",
+          "sourceNames": [
+            "Thomson House School - split site 1",
+            "Thomson House School - split site 2"
+          ],
+          "sourceSiteCount": 2
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          60,
+          51,
+          54,
+          51,
+          45,
+          50,
+          55
+        ],
+        "totalExcludingNursery": 366,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102901",
+      "laestab": "3182024",
+      "name": "Trafalgar Infant School",
+      "shortName": "Trafalgar Infant School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 136,
+        "capacity": 270,
+        "unfilledPlaces": 134,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 50.3704
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 221,
+          "capacity": 270,
+          "urn": "102901",
+          "sourceNames": [
+            "Trafalgar Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 188,
+          "capacity": 270,
+          "urn": "102901",
+          "sourceNames": [
+            "Trafalgar Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 149,
+          "capacity": 270,
+          "urn": "102901",
+          "sourceNames": [
+            "Trafalgar Infant School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 136,
+          "capacity": 270,
+          "urn": "102901",
+          "sourceNames": [
+            "Trafalgar Infant School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          42,
+          49,
+          42,
+          0,
+          0,
+          0,
+          0
+        ],
+        "totalExcludingNursery": 133,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "102900",
+      "laestab": "3182023",
+      "name": "Trafalgar Junior School",
+      "shortName": "Trafalgar Junior School",
+      "nearby": false,
+      "schoolType": "Community school",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 287,
+        "capacity": 360,
+        "unfilledPlaces": 73,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 79.7222
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 293,
+          "capacity": 360,
+          "urn": "102900",
+          "sourceNames": [
+            "Trafalgar Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 293,
+          "capacity": 360,
+          "urn": "102900",
+          "sourceNames": [
+            "Trafalgar Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 305,
+          "capacity": 360,
+          "urn": "102900",
+          "sourceNames": [
+            "Trafalgar Junior School"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 287,
+          "capacity": 360,
+          "urn": "102900",
+          "sourceNames": [
+            "Trafalgar Junior School"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          43,
+          60,
+          82,
+          89
+        ],
+        "totalExcludingNursery": 274,
+        "nurseryPupils": 0
+      }
+    },
+    {
+      "urn": "142122",
+      "laestab": "3182025",
+      "name": "Twickenham Primary Academy",
+      "shortName": "Twickenham Primary Academy",
+      "nearby": false,
+      "schoolType": "Free schools",
+      "schoolPhaseCode": "PS",
+      "schoolPhaseLabel": "Primary phase",
+      "ageRange": null,
+      "ageRangeStatus": "Not provided in downloaded datasets; zero cohorts must not establish provision age range.",
+      "capacity2025": {
+        "roll": 395,
+        "capacity": 420,
+        "unfilledPlaces": 25,
+        "pupilsOverCapacity": 0,
+        "occupancyPercent": 94.0476
+      },
+      "history": [
+        {
+          "year": "202122",
+          "roll": 401,
+          "capacity": 420,
+          "urn": "142122",
+          "sourceNames": [
+            "Twickenham Primary Academy"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202223",
+          "roll": 401,
+          "capacity": 420,
+          "urn": "142122",
+          "sourceNames": [
+            "Twickenham Primary Academy"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202324",
+          "roll": 408,
+          "capacity": 420,
+          "urn": "142122",
+          "sourceNames": [
+            "Twickenham Primary Academy"
+          ],
+          "sourceSiteCount": 1
+        },
+        {
+          "year": "202425",
+          "roll": 395,
+          "capacity": 420,
+          "urn": "142122",
+          "sourceNames": [
+            "Twickenham Primary Academy"
+          ],
+          "sourceSiteCount": 1
+        }
+      ],
+      "cohorts2026": {
+        "labels": [
+          "Reception",
+          "Year 1",
+          "Year 2",
+          "Year 3",
+          "Year 4",
+          "Year 5",
+          "Year 6"
+        ],
+        "counts": [
+          41,
+          48,
+          58,
+          55,
+          58,
+          60,
+          60
+        ],
+        "totalExcludingNursery": 380,
+        "nurseryPupils": 0
+      }
+    }
+  ],
+  "notes": [
+    "Capacity comparisons pair May 2025 pupil rolls with reported capacity as at 1 May 2025. They are a dated snapshot, not live vacancies or admissions guarantees.",
+    "The dataset covers mainstream state-funded primary-phase schools, including separate infant and junior schools. Nursery is excluded.",
+    "History uses May census counts in each academic year. Do not splice this series to the consultation leaflet, which uses different snapshots.",
+    "Nearby comparisons use the three schools in the council Kew planning area: Kew Riverside, Darell and The King’s (formerly The Queen’s).",
+    "Whole-school capacity is distinct from annual Reception admission numbers or temporary admission reductions. No claim is made about staffed or immediately available places.",
+    "SCAP net capacity excludes capacity in SEN units and resourced provision, which is collected separately. These comparisons do not establish suitable or available SEND provision.",
+    "January 2026 cohort totals sum full-time and part-time boys and girls within each curriculum year. These are year groups, not classes. Nursery is excluded.",
+    "January 2026 is not September 2026. Kew’s measured January total of 84 must not be confused with the separately published 2026/27 forecast of 84.",
+    "Thomson House’s two site rows are added to produce one school record. There are 46 raw sites/rows and 45 schools in each selected capacity year.",
+    "School histories retain source-year URNs and join by stable LAESTAB. Three schools changed URN over this period; names and LAESTAB remain continuous. No cross-year median-school comparison has been calculated.",
+    "Zero-sized year groups at separate infant or junior schools can mean the school does not offer that year; do not label these as empty classes. The three nearby schools all cover Reception to Year 6.",
+    "No suppressed or missing cells were converted to zero. All selected numerical cells are numeric and reconciled to source totals."
+  ]
+}

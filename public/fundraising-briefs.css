@@ -1,0 +1,12 @@
+/* Short role briefs, reached through a shared direct link. */
+.fundraising-brief { max-width:780px; padding-block:36px 60px; overflow-wrap:anywhere; }
+.fundraising-brief h1 { font-size:clamp(32px,4.5vw,52px); letter-spacing:-1.2px; margin-bottom:20px; }
+.fundraising-brief h2 { font-size:clamp(24px,3vw,30px); letter-spacing:-.5px; margin-bottom:12px; }
+.fundraising-brief section { margin-bottom:28px; }
+.fundraising-brief .eyebrow { color:var(--ink); }
+.fundraising-brief .notice { border-left:4px solid var(--teal); padding:16px 20px; background:var(--white); }
+.fundraising-brief .notice p { margin:12px 0 0; }
+.fundraising-brief .review { border-top:1px solid var(--line); padding-top:24px; }
+.fundraising-brief .brief-boundary { font-size:14px; color:var(--ink); }
+@media(max-width:600px) { .fundraising-brief { padding-top:24px; } .fundraising-brief .notice { padding:12px 14px; } }
+@media print { .fundraising-brief { max-width:none; padding:0; } .fundraising-brief section { break-inside:avoid; } }

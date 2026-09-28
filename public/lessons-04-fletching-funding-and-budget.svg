@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">A stronger forecast is not yet a sustainable budget</title><desc id="desc">Original forecasts were minus £5,457, minus £62,138 and minus £145,863. Revised forecasts were £40,920, minus £3,299 and between minus £95,588 and minus £39,338. Support comprised £44,368 raised, £20,000 pledged by a trust and a £10,000 parish resolution.</desc>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#fbfaf6"/>
+<rect x="64" y="55" width="70" height="6" rx="0" fill="#0e6470"/>
+<text x="150" y="66" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start">KEW RIVERSIDE  /  HISTORICAL EVIDENCE  /  EXHIBIT 04</text>
+<text x="64" y="132" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" text-anchor="start">A stronger forecast is not yet a sustainable budget</text>
+<text x="64" y="179" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="start">Fletching | December 2019 forecasts of year-end balance, in pounds. These are not actual results.</text>
+<circle cx="80" cy="234" r="10" fill="#fbfaf6" stroke="#a45012" stroke-width="2"/>
+<text x="100" y="242" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Original forecast</text>
+<circle cx="363" cy="234" r="10" fill="#0e6470"/>
+<text x="383" y="242" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Revised forecast</text>
+<line x1="657" y1="234" x2="700" y2="234" stroke="#0e6470" stroke-width="8"/>
+<text x="717" y="242" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Revised pupil-scenario range</text>
+<line x1="335.0" y1="290" x2="335.0" y2="625" stroke="#dce3da" stroke-width="2"/>
+<text x="335.0" y="279" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="middle">−£150k</text>
+<line x1="610.0" y1="290" x2="610.0" y2="625" stroke="#dce3da" stroke-width="2"/>
+<text x="610.0" y="279" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="middle">−£100k</text>
+<line x1="885.0" y1="290" x2="885.0" y2="625" stroke="#dce3da" stroke-width="2"/>
+<text x="885.0" y="279" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="middle">−£50k</text>
+<line x1="1160.0" y1="290" x2="1160.0" y2="625" stroke="#183733" stroke-width="2"/>
+<text x="1160.0" y="279" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="middle">£0</text>
+<line x1="1435.0" y1="290" x2="1435.0" y2="625" stroke="#dce3da" stroke-width="2"/>
+<text x="1435.0" y="279" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="middle">£50k</text>
+<text x="64" y="352" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" text-anchor="start">2019/20</text>
+<line x1="1129.9865" y1="345" x2="1385.06" y2="345" stroke="#aebcb5" stroke-width="3"/>
+<circle cx="1129.9865" cy="345" r="11" fill="#fbfaf6" stroke="#a45012" stroke-width="2"/>
+<text x="1129.9865" y="384" fill="#a45012" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£5,457</text>
+<circle cx="1385.06" cy="345" r="11" fill="#0e6470"/>
+<text x="1385.06" y="320" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">£40,920</text>
+<text x="64" y="469" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" text-anchor="start">2020/21</text>
+<line x1="818.241" y1="462" x2="1141.8555000000001" y2="462" stroke="#aebcb5" stroke-width="3"/>
+<circle cx="818.241" cy="462" r="11" fill="#fbfaf6" stroke="#a45012" stroke-width="2"/>
+<text x="818.241" y="501" fill="#a45012" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£62,138</text>
+<circle cx="1141.8555000000001" cy="462" r="11" fill="#0e6470"/>
+<text x="1141.8555000000001" y="437" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£3,299</text>
+<text x="64" y="586" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" text-anchor="start">2021/22</text>
+<line x1="357.7535" y1="579" x2="943.641" y2="579" stroke="#aebcb5" stroke-width="3"/>
+<circle cx="357.7535" cy="579" r="11" fill="#fbfaf6" stroke="#a45012" stroke-width="2"/>
+<text x="357.7535" y="618" fill="#a45012" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£145,863</text>
+<line x1="634.2660000000001" y1="579" x2="943.641" y2="579" stroke="#0e6470" stroke-width="9"/>
+<circle cx="634.2660000000001" cy="579" r="8" fill="#0e6470"/>
+<circle cx="943.641" cy="579" r="8" fill="#0e6470"/>
+<text x="634.2660000000001" y="555" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£95,588</text>
+<text x="943.641" y="555" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle">−£39,338</text>
+<text x="64" y="675" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start">SUPPORT REPORTED IN THE PLAN</text>
+<rect x="64" y="696" width="480" height="140" rx="8" fill="#143936"/>
+<text x="88" y="741" fill="#d9f2c7" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700" text-anchor="start">£44,368</text>
+<text x="88" y="779" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start">Fundraising raised</text>
+<text x="88" y="814" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start">Reported cash raised</text>
+<rect x="560" y="696" width="480" height="140" rx="8" fill="#edf2e9"/>
+<text x="584" y="741" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700" text-anchor="start">£20,000</text>
+<text x="584" y="779" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start">Trust pledge</text>
+<text x="584" y="814" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start">A commitment, not cash received</text>
+<rect x="1056" y="696" width="480" height="140" rx="8" fill="#edf2e9"/>
+<text x="1080" y="741" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700" text-anchor="start">£10,000</text>
+<text x="1080" y="779" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start">Parish resolution</text>
+<text x="1080" y="814" fill="#52665d" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start">A resolution, not cash received</text>
+<text x="64" y="878" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start">£74,368 raised or committed in total. Later deficits remained in both pupil scenarios.</text>
+<line x1="64" y1="910" x2="1536" y2="910" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="940" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start">Sources: S01 sections 3.10 and 7.3; S02 confirms the December 2019 decision to stop consultation.</text>
+<text x="64" y="986" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start">Budget changes also reflect other assumptions. The range is not a confidence interval. No Kew funding target is implied.</text>
+</svg>

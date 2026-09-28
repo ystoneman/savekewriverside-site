@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">What the decision records actually say</title><desc id="desc">Nine episodes are coded against six factors. Filled squares mean explicit decision rationale; outlined circles mean discussed or part of the route; dashes mean not established. Factors overlap and are not causal effect estimates.</desc>
+<rect x="0" y="0" width="1600" height="1000" rx="0" fill="#fbfaf6"/>
+<rect x="64" y="55" width="70" height="6" rx="0" fill="#0e6470"/>
+<text x="150" y="66" fill="#0e6470" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start">KEW RIVERSIDE  /  HISTORICAL EVIDENCE  /  EXHIBIT 02</text>
+<text x="64" y="132" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" text-anchor="start">What the decision records actually say</text>
+<text x="64" y="179" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="start">A qualitative evidence matrix; linked schools are grouped to avoid counting one episode several times.</text>
+<text x="680" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Process /</text>
+<text x="680" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">authority</text>
+<text x="835" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Pupil / cost</text>
+<text x="835" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">evidence</text>
+<text x="990" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Funding /</text>
+<text x="990" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">delivery</text>
+<text x="1145" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Community</text>
+<text x="1145" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">impact</text>
+<text x="1300" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Rural</text>
+<text x="1300" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">protection</text>
+<text x="1455" y="250" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">Institutional</text>
+<text x="1455" y="278" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle">partner</text>
+<line x1="64" y1="351" x2="1536" y2="351" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="333" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start">Fletching</text>
+<text x="570" y="333" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<text x="680" y="332" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<rect x="823" y="312" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="978" y="312" width="24" height="24" rx="2" fill="#0e6470"/>
+<circle cx="1145" cy="324" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="1300" cy="324" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<rect x="1443" y="312" width="24" height="24" rx="2" fill="#0e6470"/>
+<line x1="64" y1="404" x2="1536" y2="404" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="386" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Godshill</text>
+<text x="570" y="386" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<text x="680" y="385" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<text x="835" y="385" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<text x="990" y="385" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<rect x="1133" y="365" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="1288" y="365" width="24" height="24" rx="2" fill="#0e6470"/>
+<text x="1455" y="385" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<line x1="64" y1="457" x2="1536" y2="457" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="439" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Brading / Oakfield / Wroxall</text>
+<text x="570" y="439" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">3</text>
+<circle cx="680" cy="430" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="835" cy="430" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="990" y="438" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1145" cy="430" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="1300" cy="430" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="1455" cy="430" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<line x1="64" y1="510" x2="1536" y2="510" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="492" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Arreton St George&#x27;s</text>
+<text x="570" y="492" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<rect x="668" y="471" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="823" y="471" width="24" height="24" rx="2" fill="#0e6470"/>
+<text x="990" y="491" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<rect x="1133" y="471" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="1288" y="471" width="24" height="24" rx="2" fill="#0e6470"/>
+<circle cx="1455" cy="483" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<line x1="64" y1="563" x2="1536" y2="563" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="545" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">St John the Divine</text>
+<text x="570" y="545" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<rect x="668" y="524" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="823" y="524" width="24" height="24" rx="2" fill="#0e6470"/>
+<circle cx="990" cy="536" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="1145" cy="536" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="1300" y="544" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1455" cy="536" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<line x1="64" y1="616" x2="1536" y2="616" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="598" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Fenstanton / Holy Trinity</text>
+<text x="570" y="598" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">2</text>
+<rect x="668" y="577" width="24" height="24" rx="2" fill="#0e6470"/>
+<circle cx="835" cy="589" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="990" cy="589" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="1145" y="597" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<text x="1300" y="597" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1455" cy="589" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<line x1="64" y1="669" x2="1536" y2="669" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="651" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Pooles Park</text>
+<text x="570" y="651" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<text x="680" y="650" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<rect x="823" y="630" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="978" y="630" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="1133" y="630" width="24" height="24" rx="2" fill="#0e6470"/>
+<text x="1300" y="650" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<rect x="1443" y="630" width="24" height="24" rx="2" fill="#0e6470"/>
+<line x1="64" y1="722" x2="1536" y2="722" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="704" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">St George&#x27;s, Langton</text>
+<text x="570" y="704" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<circle cx="680" cy="695" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<circle cx="835" cy="695" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="990" y="703" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1145" cy="695" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="1300" y="703" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1455" cy="695" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<line x1="64" y1="775" x2="1536" y2="775" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="757" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" text-anchor="start">Hazlewood</text>
+<text x="570" y="757" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="end">1</text>
+<rect x="668" y="736" width="24" height="24" rx="2" fill="#0e6470"/>
+<rect x="823" y="736" width="24" height="24" rx="2" fill="#0e6470"/>
+<text x="990" y="756" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<text x="1145" y="756" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<text x="1300" y="756" fill="#98a59e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="middle">—</text>
+<circle cx="1455" cy="748" r="11" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="570" y="282" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="end">Schools</text>
+<rect x="64" y="844" width="20" height="20" rx="0" fill="#0e6470"/>
+<text x="97" y="862" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Explicit rationale</text>
+<circle cx="400" cy="854" r="10" fill="#fbfaf6" stroke="#62726e" stroke-width="2"/>
+<text x="423" y="862" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Discussed / route only</text>
+<text x="780" y="861" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="400" text-anchor="start">—</text>
+<text x="814" y="862" fill="#183733" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start">Not established</text>
+<line x1="64" y1="910" x2="1536" y2="910" stroke="#dce3da" stroke-width="2"/>
+<text x="64" y="940" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start">Sources: S01-S16. Cell-level rationale and source IDs: data/catalogue.json, reason_episodes.</text>
+<text x="64" y="986" fill="#62726e" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start">One analyst’s coding; no matched failures or causal estimates. St George’s outcome uses attributed reporting. Unknown is not “no”.</text>
+</svg>

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": {
+    "finance": "2026-09-23",
+    "forecasts": "2026-09-23"
+  },
+  "sources": [
+    {
+      "id": "school-balances-mar-2026",
+      "url": "https://cabnet.richmond.gov.uk/documents/s500020983/Item%206%20Appendix%20A.pdf",
+      "locator": "Appendix A, PDF page 1, Kew Riverside row"
+    },
+    {
+      "id": "kew-finance-income-history",
+      "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/income/history?type=school&id=133343&dimension=Actuals",
+      "locator": "Kew Riverside income history, financial years ending 2022–2026"
+    },
+    {
+      "id": "kew-finance-expenditure-history",
+      "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/expenditure/history?type=school&id=133343&dimension=Actuals",
+      "locator": "Kew Riverside expenditure history, financial years ending 2022–2026"
+    },
+    {
+      "id": "kew-finance-balance-history",
+      "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/balance/history?type=school&id=133343&dimension=Actuals",
+      "locator": "Kew Riverside in-year balance and revenue reserve history, financial years ending 2022–2026"
+    },
+    {
+      "id": "consultation-leaflet",
+      "url": "https://www.richmond.gov.uk/media/fxhbilws/kew_riverside_consultation_leaflet.pdf",
+      "locator": "PDF pages 3 and 5: three-year deficit statement and Kew planning-area table"
+    },
+    {
+      "id": "kew-area-forecast-2025",
+      "url": "https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/64501ba1-ae89-40e0-9cf5-552a5f1ea6d1",
+      "locator": "2024/25 SCAP forecasts, planning_area_code 3180007, Primary, time_period 202526"
+    },
+    {
+      "id": "school-census-jan-2026",
+      "url": "https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2025-26/explore",
+      "locator": "January 2026 school census, URNs 133343, 102884 and 102921, Reception–Year 6"
+    },
+    {
+      "id": "school-organisation-june-2026",
+      "url": "https://cabnet.richmond.gov.uk/documents/s500020721/11.%20School%20Organisation%20Report%20-%2011%20June%202026-%20Part%20A.pdf",
+      "locator": "PDF page 4, Area 7: Kew, 2031/32 projection"
+    }
+  ],
+  "financeHistory": [
+    {"financialYear": "2021/22", "yearEnd": "2022-03-31", "incomePence": 107778600, "expenditurePence": 113142900, "inYearResultPence": -5364300, "revenueReservePence": 16701200, "sourcePrecision": "whole pound"},
+    {"financialYear": "2022/23", "yearEnd": "2023-03-31", "incomePence": 115246612, "expenditurePence": 107913419, "inYearResultPence": 7333193, "revenueReservePence": 24034348, "sourcePrecision": "penny"},
+    {"financialYear": "2023/24", "yearEnd": "2024-03-31", "incomePence": 108689400, "expenditurePence": 106658900, "inYearResultPence": 2030500, "revenueReservePence": 26064800, "sourcePrecision": "whole pound"},
+    {"financialYear": "2024/25", "yearEnd": "2025-03-31", "incomePence": 107868300, "expenditurePence": 103254200, "inYearResultPence": 4614100, "revenueReservePence": 30678900, "sourcePrecision": "whole pound"},
+    {"financialYear": "2025/26", "yearEnd": "2026-03-31", "incomePence": 101509800, "expenditurePence": 109020100, "inYearResultPence": -7510300, "revenueReservePence": 23168500, "sourcePrecision": "whole pound"}
+  ],
+  "councilRevenueBalance": {
+    "schoolUrn": "133343",
+    "openingDate": "2025-03-31",
+    "openingPence": 30678879,
+    "closingDate": "2026-03-31",
+    "closingPence": 23168509,
+    "movementPence": -7510370,
+    "sourceId": "school-balances-mar-2026",
+    "sourcePrecision": "penny"
+  },
+  "forecastStatements": [
+    {
+      "targetFinancialYear": "2026/27",
+      "measure": "revenue reserve",
+      "comparison": "exhausted by year end",
+      "valuePence": null,
+      "reportedWording": "financial reserves will be fully used by the end of the 2026/27 financial year",
+      "sourceId": "consultation-leaflet"
+    },
+    {
+      "targetFinancialYear": "2028/29",
+      "measure": "accumulated deficit",
+      "comparison": "greater than",
+      "valuePence": 40000000,
+      "reportedWording": "a deficit of over £400,000 by 2028/29",
+      "sourceId": "consultation-leaflet"
+    }
+  ],
+  "unavailableBudgetBridge": [
+    {"financialYear": "2026/27", "incomePence": null, "expenditurePence": null, "closingRevenueReservePence": null},
+    {"financialYear": "2027/28", "incomePence": null, "expenditurePence": null, "closingRevenueReservePence": null},
+    {"financialYear": "2028/29", "incomePence": null, "expenditurePence": null, "closingRevenueReservePence": null}
+  ],
+  "pfiSchoolCharge": {
+    "financialYear": "2025/26",
+    "amountPence": 6964000,
+    "status": "reported school expenditure, not an avoidable closure saving",
+    "sourceId": "kew-finance-expenditure-history",
+    "sourcePrecision": "whole pound"
+  },
+  "forecastCheck": {
+    "forecastVintage": "2024/25 SCAP submission",
+    "targetAcademicYear": "2025/26",
+    "geography": "Kew planning area",
+    "planningAreaCode": "3180007",
+    "schoolUrns": ["133343", "102884", "102921"],
+    "nurseryExcluded": true,
+    "actualMeasurementDate": "2026-01",
+    "forecastSourceId": "kew-area-forecast-2025",
+    "actualSourceId": "school-census-jan-2026",
+    "observations": [
+      {"measure": "Reception–Year 6", "forecastPupils": 651, "actualPupils": 654},
+      {"measure": "Reception", "forecastPupils": 88, "actualPupils": 97}
+    ]
+  },
+  "forecastRevision": {
+    "targetAcademicYear": "2031/32",
+    "geography": "Kew planning area",
+    "planningAreaCode": "3180007",
+    "earlierPublication": "June 2026 school organisation report",
+    "earlierPupils": 514,
+    "earlierSourceId": "school-organisation-june-2026",
+    "laterPublication": "Kew consultation leaflet",
+    "laterPupils": 597,
+    "laterSourceId": "consultation-leaflet"
+  }
+}

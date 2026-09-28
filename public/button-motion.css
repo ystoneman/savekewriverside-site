@@ -1,0 +1,48 @@
+/* Brief feedback on action links; essential content and hit areas stay visible. */
+@media (prefers-reduced-motion: no-preference) {
+  a.button {
+    transition: transform 180ms cubic-bezier(.2, .8, .2, 1);
+  }
+
+  .parent-plan-spotlight a > span,
+  a.button[href="proposal.html#parent-plan"] > span {
+    display: inline-block;
+    transition: transform 200ms cubic-bezier(.2, .8, .2, 1);
+  }
+
+  /* A single arrival cue, moving only the decorative arrow. */
+  .parent-plan-spotlight a > span {
+    animation: parent-plan-invitation 900ms 600ms ease-in-out;
+  }
+
+  a.button:focus-visible { transform: translateY(-2px); }
+  .parent-plan-spotlight a:focus-visible > span,
+  a.button[href="proposal.html#parent-plan"]:focus-visible > span {
+    animation: none;
+    transform: translateX(4px);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    a.button:hover { transform: translateY(-2px); }
+    .parent-plan-spotlight a:hover > span,
+    a.button[href="proposal.html#parent-plan"]:hover > span {
+      animation: none;
+      transform: translateX(4px);
+    }
+  }
+
+  a.button:active {
+    transition-duration: 80ms;
+    transform: translateY(1px);
+  }
+  .parent-plan-spotlight a:active > span {
+    animation: none;
+    transition-duration: 80ms;
+    transform: translateX(2px);
+  }
+
+  @keyframes parent-plan-invitation {
+    0%, 100% { transform: translateX(0); }
+    45% { transform: translateX(5px); }
+  }
+}

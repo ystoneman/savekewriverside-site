@@ -1,0 +1,22 @@
+/* A timely invitation leads the homepage while retaining the full evidence guide. */
+.meeting-invitation{display:grid;grid-template-columns:210px minmax(0,1fr);gap:34px;padding:28px 32px;margin-top:30px;background:var(--theme-warm-surface, #f5ebd6);border:1px solid var(--theme-border, #dbca9e);border-radius:16px}
+.meeting-date{border-right:1px solid var(--theme-border, #d5c59f);padding-right:28px;color:var(--theme-strong, var(--green))}
+.meeting-date .eyebrow{font-size:11px;line-height:1.5;color:var(--theme-warm-text, #70511e);letter-spacing:1.1px;margin-bottom:16px}
+.meeting-day{font-size:18px;line-height:1.45;margin:0 0 12px}
+.meeting-day strong{display:block;font-family:Georgia,serif;font-weight:400;font-size:29px;letter-spacing:-.6px}
+.meeting-day span{display:block;font-size:19px;font-weight:700;margin-top:5px}
+.meeting-place{font-size:13px;line-height:1.6;margin:0}
+.meeting-invitation-copy h2{font-size:clamp(27px,3vw,35px);line-height:1.2;letter-spacing:-.7px;margin-bottom:15px}
+.meeting-invitation blockquote{font-size:15px;line-height:1.75;margin:0;color:var(--theme-readable, #354d44)}
+.meeting-attribution{font-size:11px;line-height:1.6;color:var(--theme-readable, #665d48);margin:9px 0 15px}
+.meeting-turnout{font-size:14px;line-height:1.7;margin-bottom:17px;color:var(--theme-strong, var(--green))}
+.meeting-links{display:flex;align-items:center;flex-wrap:wrap;gap:14px 24px}
+.meeting-plan-label{font-size:16px;margin:4px 0 10px;color:var(--theme-strong, var(--green))}
+.meeting-plan-steps{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;counter-reset:next-step;padding:0;margin:0 0 22px;font-size:13px;line-height:1.6;color:var(--theme-strong, var(--green))}
+.meeting-plan-steps li{counter-increment:next-step;display:flex;align-items:center;gap:7px}
+.meeting-plan-steps li:before{content:counter(next-step);display:inline-grid;place-items:center;width:21px;height:21px;border:1px solid var(--theme-border, #9b885f);border-radius:50%;font-size:11px;font-weight:700;flex-shrink:0}
+.meeting-links>a:not(.button){font-size:12px;line-height:1.6;min-height:32px;display:inline-flex;align-items:center}
+.meeting-links>a:last-child{font-size:12px;line-height:1.6}
+.meeting-invitation+.hero{padding-top:48px}
+@media(max-width:800px){.meeting-invitation{grid-template-columns:1fr;gap:23px;padding:24px;margin-top:22px}.meeting-date{border-right:0;border-bottom:1px solid var(--theme-border, #d5c59f);padding:0 0 19px}.meeting-date .eyebrow{margin-bottom:10px}.meeting-day{margin-bottom:7px}.meeting-day br,.meeting-place br{display:none}.meeting-day time{display:block}.meeting-day strong{display:inline;font-size:27px;margin-left:5px}.meeting-day span{display:block;margin-top:3px}.meeting-place{font-size:14px}.meeting-invitation blockquote{font-size:14px}.meeting-links{gap:15px}.meeting-links .button{font-size:12px;gap:12px}.meeting-invitation+.hero{padding-top:38px}}
+@media print{.meeting-invitation{display:block;background:#fff;border-color:#888;break-inside:avoid}.meeting-date{border:0;padding:0}.meeting-day br{display:none}.meeting-day strong{display:inline}.meeting-invitation-copy{margin-top:15px}.meeting-links{display:none}}

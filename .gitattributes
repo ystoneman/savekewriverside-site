@@ -1,0 +1,7 @@
+# Preserve the tested source bytes on every platform; promotion hashes are exact.
+public/** -text
+public/*.pdf binary
+public/*.png binary
+# CSV and calendar source assets intentionally use CRLF line endings.
+public/*.csv whitespace=cr-at-eol
+public/*.ics whitespace=cr-at-eol

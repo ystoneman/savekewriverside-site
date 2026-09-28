@@ -1,0 +1,124 @@
+/* Practical answers and school-specific evidence. Native disclosures work without JS. */
+.quick-answers {
+  display: grid;
+  grid-template-columns: minmax(230px, .8fr) minmax(0, 1.5fr);
+  gap: 24px 44px;
+  padding: 32px;
+  scroll-margin-top: 150px;
+}
+.quick-answers-intro h2 { font-size: 34px; margin: 18px 0 12px; }
+.quick-answers-intro > p { max-width: 28ch; margin-bottom: 16px; }
+.quick-answers-intro .text-link { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; }
+.quick-answers .proposal-status { font-size: 11px; line-height: 1.5; }
+.quick-faq details { border-bottom: 1px solid var(--theme-border, #c3cfba); }
+.quick-faq details:first-child { border-top: 1px solid var(--theme-border, #c3cfba); }
+.quick-faq summary { padding: 16px 2px; font-size: 16px; line-height: 1.5; }
+.quick-faq details > div { padding: 0 4px 18px 20px; }
+.quick-faq details p { margin: 0 0 12px; font-size: 15px; line-height: 1.7; }
+.quick-faq details p:last-child { margin-bottom: 0; }
+.quick-faq .source-note { font-size: 13px; }
+.quick-faq a { text-decoration: underline; text-underline-offset: 3px; }
+.quick-faq summary:focus-visible, .borough-context > summary:focus-visible,
+.roll-data > summary:focus-visible { outline: 3px solid var(--theme-focus, #0e6470); outline-offset: 4px; border-radius: 3px; }
+.school-roll-chart {
+  margin: 0;
+  padding: 32px 36px 0;
+  border: 1px solid var(--theme-border, #ccd7c7);
+  border-radius: 16px;
+  background: var(--theme-surface, #fff);
+  overflow: hidden;
+}
+.roll-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+.roll-heading h3 { margin: 10px 0 12px; font-size: 28px; line-height: 1.25; }
+.roll-heading p:not(.eyebrow) { font-size: 15px; margin: 0; }
+.roll-key-number { margin: 0; flex-shrink: 0; text-align: right; }
+.roll-key-number dt { font-size: 12px; color: var(--muted); }
+.roll-key-number dd { margin: 6px 0 0; font: 60px/1.1 Georgia, serif; color: var(--ink); }
+.roll-key-number dd span { font: 14px Arial, sans-serif; }
+.roll-legend { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 28px 0 0; }
+.roll-legend span { display: inline-flex; align-items: center; gap: 9px; font-size: 13px; color: var(--theme-readable, #425a51); }
+.roll-legend i { width: 28px; border-top: 3px solid var(--theme-border, #0e6470); }
+.roll-legend i.legend-forecast { border-color: var(--theme-border, #866629); border-top-style: dashed; }
+.roll-plot { display: block; width: 100%; max-width: 760px; height: auto; margin: 8px auto 12px; overflow: visible; }
+.forecast-region { fill: #f8f1e3; }
+.forecast-caption { fill: #785b26; font: 18px Arial, sans-serif; }
+.roll-grid { stroke: var(--theme-border, #d9e0d5); stroke-width: 1; }
+.roll-axis { fill: #596a60; font: 19px Arial, sans-serif; }
+.roll-value { fill: var(--theme-readable, #143936); font: 700 25px Arial, sans-serif; }
+.roll-reported, .roll-forecast { fill: none; stroke-linejoin: round; stroke-width: 3; }
+.roll-reported { stroke: var(--theme-chart-main, #0e6470); }
+.roll-forecast { stroke: var(--theme-chart-third, #866629); stroke-dasharray: 8 6; }
+.roll-point { stroke-width: 2.5; }
+.roll-point.reported { fill: var(--theme-chart-main, #0e6470); stroke: var(--theme-chart-main, #0e6470); }
+.roll-point.forecast { fill: #fff; stroke: var(--theme-chart-third, #866629); }
+.school-roll-chart figcaption { max-width: 86ch; font-size: 14px; line-height: 1.7; }
+.school-roll-chart figcaption strong { font-weight: 600; }
+.roll-source { font-size: 12px; line-height: 1.7; color: var(--muted); max-width: 90ch; }
+.roll-source a, .roll-data a { text-decoration: underline; text-underline-offset: 3px; }
+.roll-data { margin: 20px 0 26px; }
+.roll-data > summary { font-size: 14px; min-height: 44px; padding-block: 12px; }
+.roll-data p { max-width: 85ch; font-size: 14px; line-height: 1.7; }
+.roll-table-wrap { overflow-x: auto; }
+.roll-data table { width: 100%; font-size: 14px; }
+.roll-data table caption { text-align: left; padding: 12px 0; font-weight: 700; }
+.roll-data th, .roll-data td { padding: 10px 14px; }
+.roll-data td:last-child { white-space: nowrap; }
+.roll-takeaway { margin: 0 -36px; padding: 24px 36px; background: var(--theme-soft, #edf3e8); border-top: 1px solid var(--theme-border, #d1ddc8); }
+.roll-takeaway > p:not(.eyebrow):not(.roll-editorial) { max-width: 78ch; color: var(--ink); font-size: 17px; line-height: 1.65; margin: 8px 0; }
+.roll-takeaway > div { display: flex; flex-wrap: wrap; gap: 6px 26px; }
+.roll-takeaway a { display: inline-flex; gap: 5px; align-items: center; min-height: 44px; font-size: 14px; font-weight: 700; }
+.roll-editorial { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+.borough-context { border: 1px solid var(--theme-border, #c4d1bd); border-radius: 12px; margin-top: 20px; background: var(--theme-soft, #f7faf3); }
+.borough-context > summary { padding: 22px 26px; font-size: 18px; line-height: 1.5; }
+.borough-context > summary > span { vertical-align: middle; }
+.borough-context > summary small { display: block; font-size: 13px; font-weight: 400; color: var(--muted); padding-left: 20px; margin-top: 5px; }
+.borough-context-body { padding: 0 24px 24px; }
+.borough-intro { font-size: 15px; max-width: 75ch; margin: 0 0 22px; }
+.borough-context .chart-card { padding: 26px; }
+.borough-capacity { margin: 24px 0; }
+.borough-capacity .small-chart { background: var(--theme-surface, #fff); border-radius: 12px; }
+.borough-context .housing-note { margin-bottom: 0; }
+#option-demand { scroll-margin-top: 160px; }
+@media (max-width: 850px) {
+  .quick-answers { grid-template-columns: 1fr; gap: 18px; }
+  .quick-answers-intro > p { max-width: none; }
+  .quick-answers-intro h2 { margin-top: 12px; }
+}
+@media (max-width: 560px) {
+  /* The wrapped navigation otherwise obscures a quarter of a phone viewport. */
+  .site-header { position: static; }
+  html { scroll-padding-top: 24px; }
+  .source-card, #option-demand { scroll-margin-top: 24px; }
+  .quick-answers { padding: 24px 20px; scroll-margin-top: 24px; }
+  .quick-answers-intro h2 { font-size: 30px; }
+  .quick-faq summary { padding-block: 16px; font-size: 16px; }
+  .quick-faq details > div { padding-left: 0; }
+  .school-roll-chart { padding: 24px 18px 0; border-radius: 12px; }
+  .roll-heading { display: block; }
+  .roll-heading h3 { font-size: 25px; }
+  .roll-heading .eyebrow { font-size: 10px; }
+  .roll-key-number { display: flex; justify-content: space-between; align-items: center; text-align: left; gap: 20px; margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line); }
+  .roll-key-number dt { font-size: 13px; }
+  .roll-key-number dd { font-size: 42px; margin: 0; }
+  .roll-legend { flex-direction: column; margin-top: 22px; gap: 10px; }
+  .roll-legend span { font-size: 12px; }
+  .roll-plot { margin-block: 16px; }
+  .roll-axis { font-size: 28px; }
+  .roll-year { font-size: 26px; }
+  .roll-value { font-size: 32px; }
+  .forecast-caption { font-size: 25px; }
+  .roll-data th, .roll-data td { padding: 10px 8px; }
+  .roll-takeaway { margin-inline: -18px; padding: 22px 18px; }
+  .roll-takeaway > p:not(.eyebrow):not(.roll-editorial) { font-size: 16px; }
+  .borough-context > summary { padding: 20px 18px; font-size: 17px; }
+  .borough-context-body { padding: 0 12px 16px; }
+  .borough-context .chart-card { padding: 18px 12px; }
+}
+@media print {
+  .quick-answers { display: block; }
+  .quick-faq details > div, .borough-context > .borough-context-body,
+  .roll-data > .roll-table-wrap, .roll-data > p { display: block !important; }
+  .school-roll-chart { break-inside: avoid; }
+  .roll-plot { max-width: 680px; }
+  .roll-takeaway, .forecast-region { background: #eee; }
+}
