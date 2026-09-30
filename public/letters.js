@@ -15,14 +15,14 @@
   const WEEK = 7 * 24 * 60 * 60 * 1000;
   // Browser storage can be unavailable (private modes, blocked site data); never let it break the form.
   const store = {
-    get(key, area = localStorage) { try { return JSON.parse(area.getItem(key)); } catch { return null; } },
-    set(key, value, area = localStorage) { try { area.setItem(key, JSON.stringify(value)); return true; } catch { return false; } },
-    remove(key, area = localStorage) { try { area.removeItem(key); } catch { /* storage unavailable */ } }
+    get(key, area = 'localStorage') { try { return JSON.parse(window[area].getItem(key)); } catch { return null; } },
+    set(key, value, area = 'localStorage') { try { window[area].setItem(key, JSON.stringify(value)); return true; } catch { return false; } },
+    remove(key, area = 'localStorage') { try { window[area].removeItem(key); } catch { /* storage unavailable */ } }
   };
   // A short fingerprint of a letter, never its text, so an explicitly cleared letter
   // is removed from a browser-restored form on return.
   const fingerprint = text => { let h = 2166136261; for (let i = 0; i < text.length; i++) { h ^= text.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0).toString(36) + ':' + text.length; };
-  const explicitlyCleared = text => { const record = store.get('kr-letter-cleared', sessionStorage); return Boolean(text) && Boolean(record) && record.id === fingerprint(text); };
+  const explicitlyCleared = text => { const record = store.get('kr-letter-cleared', 'sessionStorage'); return Boolean(text) && Boolean(record) && record.id === fingerprint(text); };
   const londonDate = () => {
     const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
     const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
@@ -98,9 +98,9 @@
   function forgetDraft(note) {
     clearTimeout(timer);
     store.remove(DRAFT);
-    store.remove('kr-sent-letter', sessionStorage);
-    store.remove('kr-sent-kind', sessionStorage);
-    store.remove('kr-letter-cleared', sessionStorage);
+    store.remove('kr-sent-letter', 'sessionStorage');
+    store.remove('kr-sent-kind', 'sessionStorage');
+    store.remove('kr-letter-cleared', 'sessionStorage');
     form.reset(); // Clear private fields and every permission as well as the saved words.
     sent = false;
     updateChoices();
@@ -171,7 +171,7 @@
   // A visitor can explicitly remove the copy on the next-steps page. If Back restores
   // an old form DOM, honour that request without inferring that Formspree accepted it.
   const forgetCleared = () => {
-    const record = store.get('kr-letter-cleared', sessionStorage);
+    const record = store.get('kr-letter-cleared', 'sessionStorage');
     // Chromium can restore other inputs while leaving the message empty on Back.
     // A cleared tab with no message still needs the full form reset.
     if (record && (!message.value || record.id === fingerprint(message.value))) {
@@ -275,8 +275,8 @@
     // Coming Back to this page should show the arrival question, not the old scroll
     // position near Send, which browsers restore after the page has loaded.
     try { history.scrollRestoration = 'manual'; } catch { /* unsupported */ }
-    store.set('kr-sent-letter', { text: message.value, at: Date.now() }, sessionStorage);
-    store.set('kr-sent-kind', { kind: 'letter', at: Date.now() }, sessionStorage);
+    store.set('kr-sent-letter', { text: message.value, at: Date.now() }, 'sessionStorage');
+    store.set('kr-sent-kind', { kind: 'letter', at: Date.now() }, 'sessionStorage');
   });
   window.addEventListener('pageshow', () => {
     button.disabled = false;

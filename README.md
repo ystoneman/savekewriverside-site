@@ -6,7 +6,11 @@ Edit and test the website there. This repository contains a promoted copy of its
 public assets; it is not a second place to edit website content.
 
 The original repository continues to serve
-`https://ystoneman.github.io/kew-riverside-website/`. **Never attach the new custom
+`https://ystoneman.github.io/kew-riverside-website/`. After the user-authorized
+30 September cutover, ordinary HTML forwards in the browser to the matching
+new-domain page. Complete manual/no-script fallback, old-origin Letters/Sent
+recovery, public downloads/JSON and the school visit handoff remain available.
+**Never attach the new custom
 domain to the original repository.** Only this deployment repository may have
 `savekewriverside.org` configured in its Pages settings.
 
@@ -106,13 +110,15 @@ in the release notes with an owner and next action. Prioritize corrections,
 withdrawn material and privacy/removal requests; do not leave removed material
 available on the second site while waiting for a routine content release.
 
-The original repository remains the recovery route. If a new-domain release
-fails, retain that working URL. Prepare a recovery candidate based on current
-main, restore the needed known-good behavior, preserve current corrections and
-privacy removals, and rerun its checks before promoting. There is deliberately
-no stale-source bypass: blindly reverting an old promoted commit could restore
-material that has since been removed. Do not change the original
-repository's Pages domain settings as a recovery shortcut.
+The original repository retains the complete source and public recovery pages.
+If the canonical new site fails after forwarding is live, restore the original
+artifact's ordinary allowlist upload through a reviewed current-main workflow
+change (omit the legacy transform). Run its required checks and verify the old
+URL before calling recovery complete. Do not move or reset either custom-domain
+setting. Prepare any new-domain recovery candidate from current main, preserving
+current corrections and privacy removals, and rerun checks before promoting.
+There is deliberately no stale-source bypass: blindly reverting an old promoted
+commit could restore material that has since been removed.
 
 For each later source release, repeat the candidate and promotion process above.
 This manual sync is intentional: a source commit does not silently change the
