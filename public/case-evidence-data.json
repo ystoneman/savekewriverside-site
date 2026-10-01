@@ -8,22 +8,22 @@
     {
       "id": "school-balances-mar-2026",
       "url": "https://cabnet.richmond.gov.uk/documents/s500020983/Item%206%20Appendix%20A.pdf",
-      "locator": "Appendix A, PDF page 1, Kew Riverside row"
+      "locator": "Appendix A, PDF page 1, Kew Riverside Primary School row"
     },
     {
       "id": "kew-finance-income-history",
       "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/income/history?type=school&id=133343&dimension=Actuals",
-      "locator": "Kew Riverside income history, financial years ending 2022–2026"
+      "locator": "Kew Riverside Primary School income history, financial years ending 2022–2026"
     },
     {
       "id": "kew-finance-expenditure-history",
       "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/expenditure/history?type=school&id=133343&dimension=Actuals",
-      "locator": "Kew Riverside expenditure history, financial years ending 2022–2026"
+      "locator": "Kew Riverside Primary School expenditure history, financial years ending 2022–2026"
     },
     {
       "id": "kew-finance-balance-history",
       "url": "https://financial-benchmarking-and-insights-tool.education.gov.uk/api/balance/history?type=school&id=133343&dimension=Actuals",
-      "locator": "Kew Riverside in-year balance and revenue reserve history, financial years ending 2022–2026"
+      "locator": "Kew Riverside Primary School in-year balance and revenue reserve history, financial years ending 2022–2026"
     },
     {
       "id": "consultation-leaflet",

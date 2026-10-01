@@ -1,6 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Kew Riverside parent initiative//Response reminder//EN
+PRODID:-//Kew Riverside Primary School parent initiative//Response reminder
+ //EN
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/London
@@ -24,7 +25,7 @@ UID:kew-riverside-response-reminder-2026@ystoneman.github.io
 DTSTAMP:20260923T000000Z
 DTSTART;TZID=Europe/London:20261013T193000
 DTEND;TZID=Europe/London:20261013T194500
-SUMMARY:Send my official response about Kew Riverside
+SUMMARY:Send my official response about Kew Riverside Primary School
 DESCRIPTION:The council-linked response form states a deadline of 16 Octobe
  r 2026. Answer its questions in your own words. Use relevant parts of your
   letter where they fit. The council leaflet lists email and post for a ful
@@ -34,8 +35,8 @@ URL:https://docs.google.com/forms/d/e/1FAIpQLSda5oPsdUlrJkf6vACC_AjvXFR6-ki
  3iBymNIF5BAWNxf85xQ/viewform
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Send your official response about Kew Riverside (deadline 16 Oc
- tober)
+DESCRIPTION:Send your official response about Kew Riverside Primary School
+  (deadline 16 October)
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT

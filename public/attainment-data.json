@@ -41,7 +41,7 @@
   ],
   "records": [
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2024/25",
       "subject": "Reading, writing and maths",
       "expectedPercent": 73,
@@ -52,7 +52,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2024/25",
       "subject": "Reading",
       "expectedPercent": 80,
@@ -63,7 +63,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2024/25",
       "subject": "Writing",
       "expectedPercent": 80,
@@ -74,7 +74,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2024/25",
       "subject": "Maths",
       "expectedPercent": 73,
@@ -85,7 +85,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Reading, writing and maths",
       "expectedPercent": 67,
@@ -96,7 +96,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Reading",
       "expectedPercent": null,
@@ -107,7 +107,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Writing",
       "expectedPercent": null,
@@ -118,7 +118,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Maths",
       "expectedPercent": null,
@@ -129,7 +129,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Reading, writing and maths",
       "expectedPercent": 75,
@@ -140,7 +140,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Reading",
       "expectedPercent": null,
@@ -151,7 +151,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Writing",
       "expectedPercent": null,
@@ -162,7 +162,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Maths",
       "expectedPercent": null,
@@ -569,7 +569,7 @@
       "status": "Final"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Reading",
       "expectedPercent": 92,
@@ -580,7 +580,7 @@
       "status": "Inspection report table"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Writing",
       "expectedPercent": 83,
@@ -591,7 +591,7 @@
       "status": "Inspection report table"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "subject": "Maths",
       "expectedPercent": 83,
@@ -602,7 +602,7 @@
       "status": "Inspection report table"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Reading",
       "expectedPercent": 80,
@@ -613,7 +613,7 @@
       "status": "Inspection report table"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Writing",
       "expectedPercent": 67,
@@ -624,7 +624,7 @@
       "status": "Inspection report table"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "subject": "Maths",
       "expectedPercent": 73,
@@ -725,21 +725,21 @@
   ],
   "cohorts": [
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2022/23",
       "eligiblePupils": 12,
       "source": "dfe-cohort",
       "status": "Verified eligible-pupil count"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2023/24",
       "eligiblePupils": null,
       "source": "dfe-cohort",
       "status": "Not independently verified; not inferred"
     },
     {
-      "group": "Kew Riverside",
+      "group": "Kew Riverside Primary School",
       "academicYear": "2024/25",
       "eligiblePupils": 15,
       "source": "dfe-cohort",

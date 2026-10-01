@@ -1,6 +1,6 @@
-# Kew Riverside: evidence checklist for a consultation response
+# Kew Riverside Primary School: evidence checklist for a consultation response
 
-Prepared by Yann Stoneman, a Kew Riverside parent seeking to keep the school open. Research checked 23 September 2026; deadline and government guidance rechecked 26 September 2026. This is not an official consultation form or legal advice.
+Prepared by Yann Stoneman, a Kew Riverside Primary School parent seeking to keep the school open. Research checked 23 September 2026; deadline and government guidance rechecked 26 September 2026. This is not an official consultation form or legal advice.
 
 ## Before submitting
 
