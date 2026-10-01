@@ -1,15 +1,26 @@
-/* A quiet, dedicated route for video contributions. */
-/* Contribution route: jumps and focus land immediately, including without JS. Shared flyer links settle on the upload action, Safari can activate the private-contact link, and opening help never moves a link beneath a click. */
+/* Short parent-testimonial route; native Help stays open when scripts fail. */
 html:has(.video-page){scroll-behavior:auto}
-.video-page{padding-top:2rem;padding-bottom:4rem}.video-back{display:inline-block;margin-bottom:2rem;font-size:.88rem;color:var(--muted)}
-.video-hero{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(300px,1fr);gap:clamp(2rem,5vw,5rem);align-items:center;padding-bottom:3rem}.video-hero h1{font-size:clamp(2.4rem,4.3vw,4.2rem);line-height:1.08;letter-spacing:-.035em;margin:.6rem 0 1.4rem}.video-lead{font-size:1.16rem;line-height:1.7;max-width:36rem}.video-hero p{line-height:1.65}.video-upload{background:var(--theme-soft, #edf4e8);border:1px solid var(--theme-border, #cddfc5);border-radius:20px;padding:clamp(1.5rem,3vw,2.5rem)}.video-symbol{width:54px;height:54px;color:var(--theme-readable, #285c47)}.video-upload h2{font-family:Georgia,serif;font-size:1.8rem;line-height:1.2;margin:.5rem 0 1rem}.video-upload .button{display:flex;justify-content:space-between;margin:1.5rem 0 .8rem;min-height:48px}.video-small{font-size:.82rem;line-height:1.65}.video-upload .text-link{font-size:.84rem}.video-prompts{display:grid;grid-template-columns:1fr 1.6fr;gap:2rem;padding:2.5rem 0;border-block:1px solid var(--theme-border, #d9e2dc)}.video-prompts h2,.video-process>h2{font-family:Georgia,serif;font-size:1.8rem;line-height:1.25;margin:.5rem 0}.video-prompts ol{list-style:none;padding:0;margin:0;display:grid;gap:.8rem}.video-prompts li{font-family:Georgia,serif;font-size:1.22rem;padding:.65rem 0 .65rem 1.25rem;border-left:3px solid var(--theme-border, #99ba8b)}.video-process{padding:2.5rem 0}.video-process>ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;list-style:none;padding:0;margin:1.5rem 0 0}.video-step{font-size:.75rem;font-weight:700;letter-spacing:.15em;color:var(--theme-readable, #55745b)}.video-process h3{font-size:1.04rem;margin:.65rem 0}.video-process p{font-size:.94rem;line-height:1.7;margin:0}.video-details{max-width:850px}.video-details details{border-top:1px solid var(--theme-border, #d9e2dc)}.video-details details:last-child{border-bottom:1px solid var(--theme-border, #d9e2dc)}.video-details summary{cursor:pointer;padding:1.15rem 0;font-weight:650;min-height:48px}.video-details details>div{padding:0 0 1.2rem;max-width:46rem}.video-details p{line-height:1.75;margin:.5rem 0 1rem}.video-official{font-size:.88rem;color:var(--theme-readable, #53655f);line-height:1.7;max-width:51rem;margin-top:2rem}
-@media(max-width:760px){.video-page{padding-top:1.4rem}.video-back{margin-bottom:1.3rem}.video-hero{grid-template-columns:1fr;gap:1.4rem;padding-bottom:2rem}.video-hero h1{font-size:2.65rem}.video-hero h1 br{display:none}.video-hero h1 br::after{content:" "}.video-hero h1{max-width:16ch}.video-prompts{grid-template-columns:1fr;gap:1rem;padding:2rem 0}.video-process>ol{grid-template-columns:1fr;gap:1.6rem}.video-process{padding:2rem 0}.video-process h3{margin-top:.4rem}.video-upload{padding:1.5rem}.video-details summary{line-height:1.5}.video-official{margin-top:1.5rem}}
-.video-council-note{border-left:3px solid var(--theme-readable,#285c47);padding-left:1rem;margin:1.2rem 0;font-size:.9rem}
-/* Two visible steps with one main action: permission first, then the upload link. */
-.video-upload-summary{font-size:1rem;line-height:1.6;margin:0 0 1.1rem}
-.video-steps{list-style:none;padding:0;margin:0 0 1.2rem;display:grid;gap:1.1rem}
-.video-steps li>p:first-child{margin:0 0 .6rem;line-height:1.55}
-.video-steps .video-small{margin:.5rem 0 0}
-.video-upload .video-steps .button{margin:0;font-size:1rem;gap:1.5rem}
-@media(max-width:760px){.video-symbol,.video-hero .eyebrow{display:none}.video-upload h2{margin-top:0}.video-page{padding-top:.8rem}.video-back{margin-bottom:.8rem}.video-hero h1{margin:.3rem 0 .8rem}}
-@media(max-width:400px){.video-upload{padding:1.1rem}}
+.video-page{max-width:620px;padding-block:28px 40px}
+.video-upload h1{font:400 40px/1.12 Georgia,serif;letter-spacing:-1.2px;margin:0 0 10px;color:var(--ink)}
+.video-page p{margin:0;line-height:1.5}
+.video-lead{font-size:16px;margin-bottom:18px!important}
+.video-permission{font-size:13px;line-height:1.45!important}
+.video-upload>.button{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:52px;margin:10px 0 8px;padding:13px 16px;font-size:16px;line-height:1.35;border-radius:7px}
+.video-path{font-size:13px;color:var(--muted)}
+.video-three{list-style:none;display:grid;gap:16px;padding:0;margin:25px 0 22px}
+.video-three li{display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;gap:14px}
+.video-three strong{display:block;color:var(--ink);font-size:16px;line-height:1.3;margin-bottom:3px}
+.video-three p{font-size:14px;line-height:1.45}
+.video-icon{display:block;width:44px;height:44px;flex:none}
+.video-icon-bg{fill:var(--theme-soft,#edf4e8)}
+.video-icon-line{color:var(--theme-readable,var(--teal))}
+.video-stop{color:#bf382b}
+.video-help{border-block:1px solid var(--line);margin-top:22px}
+.video-help>summary{cursor:pointer;min-height:48px;padding:11px 0;color:var(--ink);font-size:14px;font-weight:700;line-height:1.4}
+.video-help>div{padding:0 0 16px;font-size:14px;line-height:1.5}
+.video-help h2{color:var(--ink);font:700 15px/1.4 Arial,sans-serif;margin:16px 0 5px}
+.video-help p{margin-bottom:9px}
+.video-resume{font-size:13px;margin-top:16px!important}
+.video-resume small{display:block;color:var(--muted);font-size:12px;line-height:1.45;margin-top:4px}
+.video-council-note{font-size:13px;margin-top:18px!important;padding-top:16px;border-top:1px solid var(--line)}
+@media(max-width:600px){.video-page{padding-block:19px 24px}.video-upload h1{font-size:32px;letter-spacing:-.8px;margin-bottom:8px}.video-lead{margin-bottom:12px!important}.video-three{gap:15px;margin-top:22px}.video-three li{gap:12px}}
