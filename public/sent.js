@@ -75,13 +75,13 @@
 
   // Count-free, first-person share text that matches the Parent action plan's ask.
   const url = 'https://savekewriverside.org/';
-  const message = 'I’ve written a few lines about what Kew Riverside means to us. If you’d like to read or add a community letter, it’s here:';
+  const message = 'I’ve written a few lines about what Kew Riverside Primary School means to us. If you’d like to read or add a community letter, it’s here:';
   if (navigator.share) {
     // The phone's share sheet already offers WhatsApp and Copy, so show one button.
     $('share-page').hidden = false;
     $('share-whatsapp').hidden = true;
     $('share-page').addEventListener('click', () => {
-      navigator.share({ title: 'Kew Riverside', text: message, url }).catch(() => {});
+      navigator.share({ title: 'Kew Riverside Primary School', text: message, url }).catch(() => {});
     });
   } else if (navigator.clipboard) {
     $('copy-link').hidden = false;
