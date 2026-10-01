@@ -61,3 +61,9 @@ html.has-orientation{scroll-behavior:auto}
 /* The official response leads the Take part group with the same emphasis as the
  * Parent action plan (owner decision, 27 September 2026). */
 .site-header .nav-respond{font-weight:700;color:var(--teal)}
+
+/* Let the full school name reflow while keeping participation links exposed. */
+.site-header .brand{min-width:0;white-space:normal}
+.site-header .brand>span{min-width:0}
+
+@media(max-width:700px){.site-header .header-inner{padding-block:4px}.site-header .brand small{margin-top:0}}
