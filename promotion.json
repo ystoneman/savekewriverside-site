@@ -74,7 +74,7 @@
     "privacy.html": "91f4535594a6807a96c99cd621c14d2b7b1d7d925548270df3393f520c0f2762",
     "private-form.js": "127c04d740f9c91db169379643624b591ece24ec8ec61e2db27fae3467181c8d",
     "proposal.css": "4453d03656aa2ac4b971fbf98b66b8906d22a423c32e03669fe7216befe79ee2",
-    "proposal.html": "1ed6464294e43de437c1d1c1be12af06fe908bdfcd9277dc3ddc22b9fb217c9a",
+    "proposal.html": "3687684b0324e67679f1ae15cfa59bfd87d736ec7143411048fd0279ba40f984",
     "qr/kew-riverside-visit-qr.png": "37fa81c30ae3e10f4dab950f81798aaaba1f6647a6376fa185678d25864deba7",
     "qr/kew-riverside-visit-qr.svg": "20491cecb16dc005ef3aa8a8e5334eb6bc9527cbcd17cbfe9daba04efea03485",
     "qr/kew-riverside-website-qr.png": "a74764d5defa17e9fcf05b49b3fefe2415e3a198e49bfa0e1cb78ec23bbc3ad1",
@@ -83,6 +83,9 @@
     "qr/savekewriverside-home-qr.svg": "2881175182a53482b927ee70363428483c3be49aadb7b27bf9fca3439ef7359a",
     "qr/savekewriverside-visit-qr.png": "128e0e4d6390a8d0099fe50372bea2fd75265d64e908ff8a9f8f28bd72e60a9b",
     "qr/savekewriverside-visit-qr.svg": "13e0b6cd12fc46d51076a9bc633269ea622dabdda7d84a1522af7c7e0934b0ba",
+    "rally-6-october.ics": "7e313e9704918aea175ba72939bfe52e9574990ef96e50e1034b18d8d1198b64",
+    "rally.css": "18dfe327b81cd93dd028f4fdbbd0bc740a39f4d9c8cc9251fd71fa72475013fc",
+    "rally.html": "fe42eca8523409f528edd97acbdf6b37bf02a881e93a53b2395c2c7a7ff457e3",
     "research-discovery.css": "b4b41dbf6ad2d60addc3c54c26b3880a17bf41067f9fe54b6e75317bc26c60e9",
     "respond-reminder.ics": "0c6e0bcdd2cb8f80e159eaa25053935d7889754acab1b70aa91edc4a8d279d05",
     "response-checklist.md": "3d9b00fa646f4b1f5300f6fca0382a66ee3020b203ac18599550fb11312b1c03",
@@ -110,12 +113,12 @@
     "voice.css": "a0dc4c9e34ee89ccf1301b7b31b0102fbd3b902ba2751e8c01e36fb6f69225fc",
     "voice.js": "f64c4364192032e3e4565edcca221ef36f9560cade3ef9d08e7e03b1559b9123"
   },
-  "promoted_at_utc": "2026-10-01T18:04:34.690519+00:00",
+  "promoted_at_utc": "2026-10-01T18:58:57.675729+00:00",
   "schema_version": 2,
   "source": {
-    "base_main_commit": "0d655c28255cb23f8a4f48526a8b2a056208e974",
+    "base_main_commit": "ef9e38db8488706547d8a4f81feb626d6fe85417",
     "branch": "codex/new-domain-candidate",
-    "commit": "318238e319cc4827b1b125795f585baa44d26ec4",
+    "commit": "9c51e69c0963d3e2c60decded2eb2f4edb35dc63",
     "event": "workflow_dispatch",
     "repository": "ystoneman/kew-riverside-website",
     "required_jobs": {
@@ -128,9 +131,9 @@
       "validate": "success"
     },
     "run_attempt": 1,
-    "run_id": 36902599324,
-    "run_url": "https://github.com/ystoneman/kew-riverside-website/actions/runs/36902599324",
+    "run_id": 36908417249,
+    "run_url": "https://github.com/ystoneman/kew-riverside-website/actions/runs/36908417249",
     "workflow_path": ".github/workflows/pages.yml"
   },
-  "validator_sha256": "e5c522d1f6165720a269b97bf9456fa25eb499900746931b4340bfb6e35f9f52"
+  "validator_sha256": "73f05d6d9b42015ce7e86288d5324272e8e9c85c7e40c1df2c1f15393f0d1fe5"
 }

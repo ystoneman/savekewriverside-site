@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kew Riverside Primary School Parents//Rally//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kew-riverside-rally-20261006@savekewriverside.org
+DTSTAMP:20261001T170000Z
+DTSTART:20261006T170000Z
+DTEND:20261006T174500Z
+SUMMARY:Kew Riverside Primary School rally (planned)
+LOCATION:Outside York House\, Richmond Road\, Twickenham TW1 3AA
+DESCRIPTION:Planned rally 6-6.45pm London time. Optional group photo 6.15pm
+ . Exact gathering spot\, grounds permission and access arrangements awaiti
+ ng confirmation. Check https://savekewriverside.org/rally.html before trav
+ elling.
+URL:https://savekewriverside.org/rally.html
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
