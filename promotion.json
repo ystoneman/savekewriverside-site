@@ -71,7 +71,7 @@
     "orientation.css": "3de68b301b8433dadfdeb774b4c0ec3203a336821ab0b45a6328311793194945",
     "parent-plan.css": "d778d8d6875e1887be06745b561078260fcb10e266e6320f02c22d14b273aa69",
     "participation.css": "90ee3b707fa1e7d117b60287002af8e2346c791763f00b70932ba5090d5a5496",
-    "privacy.html": "91f4535594a6807a96c99cd621c14d2b7b1d7d925548270df3393f520c0f2762",
+    "privacy.html": "72649c77e0c8a4876a4b9a393c9e07cf668bc7508401669d130bb040ea60da7a",
     "private-form.js": "127c04d740f9c91db169379643624b591ece24ec8ec61e2db27fae3467181c8d",
     "proposal.css": "4453d03656aa2ac4b971fbf98b66b8906d22a423c32e03669fe7216befe79ee2",
     "proposal.html": "3687684b0324e67679f1ae15cfa59bfd87d736ec7143411048fd0279ba40f984",
@@ -113,12 +113,12 @@
     "voice.css": "a0dc4c9e34ee89ccf1301b7b31b0102fbd3b902ba2751e8c01e36fb6f69225fc",
     "voice.js": "f64c4364192032e3e4565edcca221ef36f9560cade3ef9d08e7e03b1559b9123"
   },
-  "promoted_at_utc": "2026-10-02T06:43:02.731555+00:00",
+  "promoted_at_utc": "2026-10-05T15:16:36.636816+00:00",
   "schema_version": 2,
   "source": {
-    "base_main_commit": "51e9938994badeab9c94f0124386267b483c0bc0",
+    "base_main_commit": "7529d314b520d10dab75a51991f8143e0c1aca4a",
     "branch": "codex/new-domain-candidate",
-    "commit": "3e7b5425fa39e022ca7745d325efa44657a4df8f",
+    "commit": "f3b71bd522149e936dc5e29992b54753886e04a2",
     "event": "workflow_dispatch",
     "repository": "ystoneman/kew-riverside-website",
     "required_jobs": {
@@ -131,8 +131,8 @@
       "validate": "success"
     },
     "run_attempt": 1,
-    "run_id": 36973778938,
-    "run_url": "https://github.com/ystoneman/kew-riverside-website/actions/runs/36973778938",
+    "run_id": 37329512110,
+    "run_url": "https://github.com/ystoneman/kew-riverside-website/actions/runs/37329512110",
     "workflow_path": ".github/workflows/pages.yml"
   },
   "validator_sha256": "73f05d6d9b42015ce7e86288d5324272e8e9c85c7e40c1df2c1f15393f0d1fe5"

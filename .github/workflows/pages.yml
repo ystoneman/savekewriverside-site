@@ -24,11 +24,30 @@ jobs:
         run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
       - name: Verify asset digests and successful source checks
         run: python3 scripts/verify.py --check-source-run
-      - name: Upload only the verified public directory
+      - name: Read the verified source revision
+        id: tested-source
+        run: |
+          python3 - <<'PYCODE'
+          import json, os
+          from pathlib import Path
+          source = json.loads(Path('promotion.json').read_text())['source']['commit']
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'commit={source}\n')
+          PYCODE
+      - name: Check out the exact tested source transformer
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: ystoneman/kew-riverside-website
+          ref: ${{ steps.tested-source.outputs.commit }}
+          path: tested-source
+          persist-credentials: false
+      - name: Build forwarding pages with old-origin draft recovery
+        run: python3 tested-source/.github/scripts/build_old_site_redirect.py --source public --output "$RUNNER_TEMP/legacy-site"
+      - name: Upload only the verified transformed public directory
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
-          path: public/
+          path: ${{ runner.temp }}/legacy-site
           retention-days: 1
 
   deploy:
