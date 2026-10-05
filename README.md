@@ -1,5 +1,21 @@
 # Save Kew Riverside deployment
 
+## Forwarding to the Primary School domain
+
+Ordinary HTML on `savekewriverside.org` forwards in the browser directly to the
+matching `savekewriversideprimaryschool.org` page, preserving query and fragment.
+The workflow first performs all existing exact-source and public-asset checks,
+then checks out the manifest's exact tested source commit and runs its reviewed
+legacy artifact transformer. Only that generated public directory is uploaded.
+`public/` remains the exact promoted source output and must not be hand-edited.
+
+Browser replace navigation preserves Back. Saved-letter and pending-return
+recovery stays at the old origin, retaining its original Formspree endpoint.
+No-script/manual fallback, downloads, JSON boards and the school visit handoff
+remain available. Forwarding/recovery pages omit analytics initialization.
+This is a browser redirect, not an HTTP 301; no DNS change is required.
+
+
 This repository serves `savekewriverside.org`. The authoritative source is
 [ystoneman/kew-riverside-website](https://github.com/ystoneman/kew-riverside-website).
 Edit and test the website there. This repository contains a promoted copy of its
